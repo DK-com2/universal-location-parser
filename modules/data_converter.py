@@ -103,9 +103,13 @@ def sort_dataframe_by_time(df: pd.DataFrame) -> pd.DataFrame:
             df[col] = _to_naive_utc(df[col])
 
     # ソート用の時間列を作成（優先順位: point_time > start_time > end_time）
-    sort_time = df['point_time'].fillna(
-        df['start_time'].fillna(df['end_time'])
-    )
+    sort_time = df.get('point_time', pd.Series(index=df.index, dtype='datetime64[ns]'))
+    
+    if 'start_time' in df.columns:
+        sort_time = sort_time.fillna(df['start_time'])
+    
+    if 'end_time' in df.columns:
+        sort_time = sort_time.fillna(df['end_time'])
 
     # ソート実行
     if not sort_time.isna().all():
@@ -144,11 +148,13 @@ def get_dataframe_summary(df: pd.DataFrame) -> Dict:
     if df.empty:
         return {"total_records": 0}
 
-    _times = pd.concat([
-        df.get("point_time"),
-        df.get("start_time"),
-        df.get("end_time")
-    ])
+    # 時間カラムをリストに集めてからconcat
+    time_series = []
+    for col in ["point_time", "start_time", "end_time"]:
+        if col in df.columns:
+            time_series.append(df[col])
+    
+    _times = pd.concat(time_series) if time_series else pd.Series(dtype='datetime64[ns]')
 
     summary = {
         "total_records": len(df),
