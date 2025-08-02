@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2024年一級河川_地点ルート</name>
+	<Style id="icon-1899-DB4436-nodesc-highlight">
+		<IconStyle>
+			<Icon>
+				<href>files/icon-2.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-1899-DB4436-nodesc-normal">
+		<IconStyle>
+			<Icon>
+				<href>files/icon-2.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-1899-DB4436-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-0288D1-5000-highlight">
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>7.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="icon-123-highlight">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="line-0288D1-5000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-0288D1-5000-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-0288D1-5000-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-123-normal">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-nodesc-highlight">
+		<IconStyle>
+			<Icon>
+				<href>files/icon-1.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="line-0288D1-5000-normal">
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="icon-61-normal">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="icon-61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-61-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-61-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-123">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-123-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-123-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-61-highlight">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-nodesc-normal">
+		<IconStyle>
+			<Icon>
+				<href>files/icon-1.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-1899-0288D1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="0C0CE0CD2639A138A69B">
+		<name>20240904一級河川東側</name>
+		<Placemark id="08595A096B39A138A69C">
+			<name>29 野瀬川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.228622,35.26655,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="173956691339A138A69C">
+			<name>28 犬上川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.219688,35.264187,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="293271C0B039A138A69C">
+			<name>27 江面川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.212319,35.25265,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3B9F3A90E939A138A69C">
+			<name>26 安食川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.20738,35.238879,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="49C53AB26A39A138A69C">
+			<name>25 宇曽川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.20485,35.243158,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5BA24322B839A138A69C">
+			<name>24 文禄川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.174767,35.236382,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6549AE274739A138A69C">
+			<name>23 不飲川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.16366,35.221073,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7C1445545E39A138A69C">
+			<name>22 愛知川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.135195,35.210984,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="88AC68F31A39A138A69C">
+			<name>21 大同川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.146697,35.181232,84</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9E1AA7BF3C39A138A69C">
+			<name>20 長命寺川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.085429,35.166237,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="A2C849EF2539A138A69C">
+			<name>19 八幡川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.072268,35.142929,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="B166AECDF139A138A69C">
+			<name>18 白鳥川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.077557,35.132313,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="CB95079FA939A138A69C">
+			<name>17 大惣川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.056832,35.132086,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="D5E89F41AD39A138A69C">
+			<name>16 日野川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.029738,35.128756,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="E4114C20F539A138A69C">
+			<name>15 家棟川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.019426,35.126904,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="FA6AC922A539A138A69C">
+			<name>14 江川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.007102,35.125777,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10E633E99D139A138A69C">
+			<name>13 野洲川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.993726,35.097223,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1113A09429239A138A69C">
+			<name>12 幸津川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.983463,35.113884,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1219829494439A138A69C">
+			<name>11 法竜川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.959182,35.092828,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13B110EB04E39A138A69C">
+			<name>10 守山川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.958539,35.075232,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="140D1E5759F39A138A69C">
+			<name>9 山賀川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.955791,35.071702,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15827D7CE0439A138A69C">
+			<name>8 堺川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.948068,35.065388,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16E3813B90D39A138A69C">
+			<name>7 葉山川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.93369,35.044727,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17EC92B13D139A138A69C">
+			<name>6 伊佐々川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.928257,35.041687,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1871CD47B8339A138A69C">
+			<name>4 山寺川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.925239,35.022689,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="190D6AEAC0F39A138A69C">
+			<name>112 新　草津川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.930643,35.01325,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1AAB2A5B13439A138A69C">
+			<name>111 高橋川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.908373,34.977921,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1B754F54E9939A138A69C">
+			<name>1 長沢川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.914049,34.993993,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1CA82980CEE39A138A69C">
+			<name>2 狼川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.914496,34.998892,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1DA9925B94E39A138A69C">
+			<name>3 十禅寺川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.922981,35.003547,88</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="1E84CF9B73639A138A69C">
+		<name>20240909_一級河川北側.gpx</name>
+		<Placemark id="1F8AD5F219439A138A69C">
+			<name>54 大浦川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.119596,35.488773,85.8</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="206A611024F39A138A69C">
+			<name>70 入道沼</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.057021,35.345749,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="218CE8E5B2739A138A69C">
+			<name>69 南川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.051433,35.354365,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2221FA933BD39A138A69C">
+			<name>68 針江大川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.047261,35.359808,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23B3EED71D739A138A69C">
+			<name>67 田井川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.036576,35.369346,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2456E734C4339A138A69C">
+			<name>66 林照寺川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.034143,35.376163,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2538C0C0A2A39A138A69C">
+			<name>65 今川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.035265,35.383286,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="26BDA41917639A138A69C">
+			<name>64 波布谷川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.033626,35.386563,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="270FC003F2E39A138A69C">
+			<name>63 庄界川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.031053,35.391699,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="28B609C8E3139A138A69C">
+			<name>62 今津川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.041263,35.406221,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="29FC628287E39A138A69C">
+			<name>61 石田川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.045962,35.40754,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2ADDD4DC12F39A138A69C">
+			<name>60 境川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.029813,35.430997,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2B3393EE70E39A138A69C">
+			<name>59 新保川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.048459,35.44696,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2CA992DF97E39A138A69C">
+			<name>58 百瀬川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.050323,35.452166,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2DC221D6D6E39A138A69C">
+			<name>57 前川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.052383,35.453442,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2E263E57B4D39A138A69C">
+			<name>56 知内川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.057043,35.454601,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2F29B271EB239A138A69C">
+			<name>55 中ノ川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.075785,35.465873,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="30D6AD3739539A138A69C">
+			<name>53 岩熊川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.161354,35.515584,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="31E681EA65F39A138A69C">
+			<name>52 大川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.162174,35.519214,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="32EC43E8B2739A138A69C">
+			<name>51 大坪川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.164956,35.516365,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="333A28ADE1A39A138A69C">
+			<name>50 余呉川　西野水路</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.205234,35.467056,98</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="344D88780AC39A138A69C">
+			<name>49 余呉川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.202548,35.441693,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="355D03FA8B139A138A69C">
+			<name>48 丁野木川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.216658,35.436803,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3602113F84839A138A69C">
+			<name>47 モロコ川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.211811,35.409496,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="37C652F5C2F39A138A69C">
+			<name>46 中川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.220722,35.409876,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="386F34B068C39A138A69C">
+			<name>45 田川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.23634,35.413561,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="39196ED04B739A138A69C">
+			<name>44 姉川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.228806,35.400477,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3A83176649C39A138A69C">
+			<name>43 川道川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.250462,35.402795,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3B49ED7E03A39A138A69C">
+			<name>42 米川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.266457,35.374923,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3CE8BB4E3AB39A138A69C">
+			<name>41 十一川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.27254,35.377253,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3D921853DC239A138A69C">
+			<name>40 長浜新川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.279063,35.368763,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3E5DAFDD51739A138A69C">
+			<name>39 深町川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.289523,35.35339,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3F58F5E55E139A138A69C">
+			<name>38 土川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.28977,35.34822,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="40BE80EB38E39A138A69C">
+			<name>37 びわだ川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.286887,35.344496,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="41CF67B1FAF39A138A69C">
+			<name>35  今江川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.269839,35.321034,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="42EDA44802239A138A69C">
+			<name>36 天野川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.282327,35.326906,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4308642146139A138A69C">
+			<name>34 入江川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.273553,35.318127,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="442E475639E39A138A69C">
+			<name>33 磯川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.262442,35.307592,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="45C69F100E839A138A69C">
+			<name>32 矢倉川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.259634,35.294348,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="462AB0C332F39A138A69C">
+			<name>31 平田川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.238086,35.270739,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="47A347D209139A138A69C">
+			<name>30 芹川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.24005,35.272201,86</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="488204CF38439A138A69C">
+		<name>20240910_一級河川西側.gpx</name>
+		<Placemark id="497833678AE39A138A69C">
+			<name>焼肉バンバン</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.923485,35.20656,101</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4A1F45D51FD39A138A69C">
+			<name>71 神奈川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.052473,35.339798,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4BF2E1D550B39A138A69C">
+			<name>73 金丸川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.045116,35.329339,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4C0349B1CED39A138A69C">
+			<name>74 青井川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.028966,35.319344,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4D3E579544D39A138A69C">
+			<name>75 鴨川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.028053,35.316815,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4E757F6F31C39A138A69C">
+			<name>76 鯰川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.037274,35.307056,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4F58FEF2C5339A138A69C">
+			<name>77 和田打川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.019856,35.299308,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="503E3B0808739A138A69C">
+			<name>78 瀬戸川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.012833,35.295249,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="519B209E1C439A138A69C">
+			<name>79 鵜川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.99243,35.265433,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="525BE5BD18939A138A69C">
+			<name>80 滝川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.970106,35.246796,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5369E1EC17439A138A69C">
+			<name>81 大堂川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.961701,35.240917,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="54E22A89C1239A138A69C">
+			<name>86 八屋戸川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.917353,35.183516,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5584650448B39A138A69C">
+			<name>87 天川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.916947,35.176327,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="56409F92D5039A138A69C">
+			<name>88 鎌田川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.918425,35.173421,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5700A9F066C39A138A69C">
+			<name>89 喜撰川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.923444,35.167812,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="589FA9E0B9439A138A69C">
+			<name>90 和邇川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.930975,35.156649,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="590C30D313039A138A69C">
+			<name>91 新　丹出川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.926368,35.148174,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5A251E6E30639A138A69C">
+			<name>92 真野川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.92787,35.128795,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5B184ABC45439A138A69C">
+			<name>93 天神川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.914193,35.103877,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5C0F5B0524039A138A69C">
+			<name>94 御呂戸川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.905836,35.103253,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5D168D5B9BE39A138A69C">
+			<name>95 雄琴川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.905026,35.097068,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5E27360FDB939A138A69C">
+			<name>97 足洗川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.886172,35.074646,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5F087936AD939A138A69C">
+			<name>96 大正寺川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.895547,35.083685,86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="60F9FAE694F39A138A69C">
+			<name>98 大宮川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.885516,35.066929,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="61998444C3A39A138A69C">
+			<name>99 藤ノ木川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.879791,35.064154,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="62CA75ECC3B39A138A69C">
+			<name>100 四ツ谷川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.876032,35.055784,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="63C4EC903DE39A138A69C">
+			<name>101 際川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.866767,35.032369,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6401E33AB0A39A138A69C">
+			<name>102 柳川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.86704,35.030947,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="65D59F8238239A138A69C">
+			<name>103 不動川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.862229,35.021631,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="665C548394539A138A69C">
+			<name>105 百々川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.860007,35.013666,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="67FD1FAC35939A138A69C">
+			<name>104 熊野川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.859423,35.016713,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="682B039DA3B39A138A69C">
+			<name>106 吾妻川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.870244,35.006691,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="69829A5363D39A138A69C">
+			<name>107 常世川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.873185,35.006445,89</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6A1FEEEB7F439A138A69C">
+			<name>108 相模川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.89,35.003647,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6B97D72732339A138A69C">
+			<name>109 篠津川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.896378,34.989594,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6C9C51383AD39A138A69C">
+			<name>110 兵田川</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.898889,34.986811,87</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="6DF31138FF939A138A69C">
+		<name>20240904_一級河川東側ルート</name>
+		<Placemark id="6E9550AF5C039A138A69C">
+			<name>大津市 の出発地</name>
+			<description><![CDATA[2024年9月4日水曜日 6:39 JST<br>標高: 91 m]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>135.90896,34.977355,91.08207299999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6F7E54A82F139A138A69C">
+			<name>大津市 の目的地</name>
+			<description><![CDATA[2024年9月4日水曜日 15:52 JST<br>標高: 169 m]]></description>
+			<styleUrl>#icon-123</styleUrl>
+			<Point>
+				<coordinates>135.93957,34.962957,168.660406</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="70E040F9F8039A138A69C">
+			<name>大津市</name>
+			<description><![CDATA[インポートしたデータに基づく統計データ<br><br>2024年9月4日水曜日 6:39 JST<br>距離: 152.1 km<br>所要時間: 9 時間 12 分 43 秒<br>平均速度: 毎時 16.5 km<br>最小標高: 84 m<br>最大標高: 165 m<br>累積標高（登り）: 155 m<br>累積標高（下り）: 81 m]]></description>
+			<styleUrl>#line-0288D1-5000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					135.90896,34.977355,91.08207299999999 135.908819,34.977606,90.303145 135.908774,34.977917,90.63694099999999 135.908397,34.977938,91.012783 135.9084,34.977933,91.164203 135.908396,34.977926,91.408242 135.908398,34.977905,91.371317 135.908735,34.977865,90.934601 135.908987,34.977393,90.90281899999999 135.909437,34.977184,90.988585 135.908915,34.977025,91.022656 135.908677,34.977351,91.046316 135.908579,34.981588,91.201256 135.908783,34.986157,90.577746 135.909101,34.988577,91.359498 135.909755,34.993393,92.098178 135.909787,34.993719,91.707318 135.911362,34.994049,91.66407599999999 135.913478,34.994092,91.343822 135.914561,34.994011,90.011752 135.914181,34.994037,89.004222 135.914071,34.994054,88.743909 135.914541,34.994025,88.547546 135.914006,34.993939,89.725298 135.911797,34.993978,90.749978 135.910101,34.993884,90.50214200000001 135.909834,34.994084,90.527351 135.910141,34.999472,90.57316899999999 135.912357,35.00017,89.427689 135.914703,34.998827,88.58740299999999 135.914433,34.998894,88.980039 135.914755,34.998793,89.57561399999999 135.916852,34.998705,90.18839800000001 135.920488,34.998534,90.768089 135.922267,34.99827,91.022988 135.923135,35.000984,90.802554 135.922887,35.003549,90.095157 135.922976,35.003548,89.09959000000001 135.922811,35.003541,88.38938899999999 135.922311,35.0039,88.43546499999999 135.924138,35.00427,88.474642 135.924432,35.005252,88.625856 135.925263,35.009799,88.961343 135.925274,35.010196,89.46266199999999 135.928522,35.010262,89.363511 135.930242,35.012757,89.66667700000001 135.930605,35.013098,89.364532 135.930878,35.013521,89.296913 135.930816,35.013448,89.275178 135.930681,35.013188,89.23765 135.931077,35.013135,88.84597100000001 135.930737,35.01288,89.576268 135.92949,35.013317,89.82155 135.925753,35.013556,89.66101399999999 135.926035,35.014996,89.618664 135.928178,35.019755,89.71456499999999 135.930108,35.023764,89.039598 135.926797,35.023886,88.574977 135.925196,35.022627,88.397369 135.925215,35.022654,88.246978 135.92532,35.022913,88.26535199999999 135.9272,35.02399,88.710329 135.929717,35.024587,89.491423 135.931023,35.027869,90.173661 135.931661,35.02912,90.54377099999999 135.933435,35.032688,90.720522 135.934529,35.034882,90.19195000000001 135.935683,35.036465,89.36900799999999 135.93169,35.038335,88.710133 135.927836,35.041129,87.824189 135.928292,35.041715,87.15655099999999 135.928253,35.041682,87.215515 135.928472,35.041897,87.10233700000001 135.929094,35.043812,86.996611 135.929025,35.046225,87.269705 135.933172,35.044725,87.609764 135.933539,35.04453,87.676801 135.933651,35.044622,87.747567 135.933658,35.04467,87.75989300000001 135.933699,35.044735,87.736632 135.933343,35.044702,87.434624 135.933628,35.044497,87.458879 135.939321,35.042152,87.744708 135.939599,35.042298,88.028927 135.942209,35.046681,88.464702 135.945027,35.051359,89.232933 135.947195,35.054593,89.75349799999999 135.948588,35.056726,89.59102799999999 135.952154,35.062046,89.20356099999999 135.950151,35.065087,88.74278099999999 135.948027,35.065475,88.106961 135.94806,35.065433,87.66936800000001 135.948278,35.065706,87.95948799999999 135.952242,35.064063,88.46351199999999 135.955342,35.065916,88.941935 135.956741,35.067737,89.503356 135.957231,35.067837,89.846609 135.957232,35.067762,90.07247099999999 135.957252,35.067777,90.121711 135.957416,35.067508,90.01648599999999 135.958564,35.066921,89.953898 135.957458,35.067442,89.892511 135.957138,35.067608,89.946011 135.958078,35.069454,89.46826799999999 135.960862,35.073,88.834169 135.962859,35.07626,88.15259500000001 135.957574,35.078793,87.722663 135.955947,35.079576,87.292776 135.953699,35.07637,87.221726 135.951761,35.073977,87.48610499999999 135.954334,35.07254,87.723815 135.955819,35.07184,87.73521100000001 135.955787,35.07171,87.37652299999999 135.955838,35.071842,87.55594499999999 135.955959,35.072146,87.670682 135.957726,35.074304,87.701376 135.95851,35.075193,87.67320100000001 135.958502,35.075184,87.79462100000001 135.95858,35.07532,87.69450000000001 135.958591,35.075322,87.567796 135.958769,35.07556,87.434011 135.960175,35.077584,87.477458 135.95599,35.079569,87.294792 135.957951,35.083051,87.95142800000001 135.961531,35.088069,89.826649 135.965279,35.092061,90.111587 135.96552,35.092271,90.16838199999999 135.962058,35.09516,90.20853 135.959173,35.092859,89.769445 135.959167,35.092815,88.25436999999999 135.958907,35.092645,88.30985099999999 135.960012,35.093575,88.255326 135.962034,35.09519,88.37085500000001 135.959496,35.098626,88.594499 135.955998,35.10257,88.76816700000001 135.954409,35.106582,88.91207300000001 135.954191,35.107204,89.226783 135.952849,35.110357,89.510442 135.954245,35.111677,89.119562 135.954432,35.116893,88.737476 135.956645,35.123373,88.601277 135.960355,35.123127,88.476196 135.96797,35.121195,88.079528 135.967461,35.11799,88.14154000000001 135.973135,35.114884,88.127296 135.977837,35.113742,87.91286100000001 135.980264,35.116715,87.765568 135.982768,35.114577,87.83735399999999 135.983553,35.113866,87.737515 135.983471,35.113896,87.67421400000001 135.983542,35.113849,87.70428099999999 135.983679,35.113561,88.064424 135.98205,35.111671,88.58013 135.983021,35.108654,89.102035 135.98223,35.10496,91.052772 135.980771,35.10123,92.149494 135.98418,35.097952,93.07480700000001 135.988679,35.096988,94.72778099999999 135.990312,35.095664,96.529419 135.993082,35.094564,96.561826 135.992522,35.095829,97.30454399999999 135.992327,35.096264,97.33219 135.992366,35.096625,96.746668 135.992826,35.096836,94.934189 135.993395,35.097083,93.481701 135.993708,35.097235,92.285748 135.993706,35.097226,91.38168899999999 135.993705,35.097208,90.333586 135.993685,35.097214,90.3753 135.993686,35.097225,90.39354899999999 135.993691,35.09725,90.287781 135.993682,35.097209,90.83160599999999 135.993229,35.096994,91.66820800000001 135.992732,35.096772,92.951736 135.992181,35.096524,94.43549899999999 135.992453,35.095986,93.83895099999999 135.992331,35.096291,93.219115 135.996592,35.099023,92.74700799999999 135.999627,35.101332,91.75938600000001 136.005903,35.10124,90.245127 136.008569,35.10155,90.890078 136.01194,35.102405,91.165515 136.012874,35.103017,90.86559800000001 136.014306,35.104766,90.69274900000001 136.014007,35.104634,90.619023 136.014141,35.104634,90.679621 136.014312,35.104774,90.282771 136.014273,35.104766,90.03301500000001 136.016714,35.107307,89.344508 136.017575,35.108388,88.95899 136.011956,35.111518,87.968568 136.013074,35.114093,87.395635 136.01488,35.118317,86.866567 136.011081,35.120021,86.73284200000001 136.006184,35.122672,86.351118 136.002714,35.124838,86.394192 136.005064,35.126489,86.960438 136.005358,35.126617,87.96373699999999 136.005616,35.126851,88.205123 136.006482,35.126774,88.25877699999999 136.007432,35.126475,88.382559 136.007339,35.12618,87.68870200000001 136.007123,35.125924,86.38582599999999 136.007112,35.125763,85.97594700000001 136.007108,35.125788,85.809507 136.007085,35.125769,85.683436 136.006841,35.125754,85.946765 136.006352,35.125951,86.50355399999999 136.00596,35.12619,86.923678 136.005804,35.126465,87.062922 136.005497,35.126639,87.08094 136.005137,35.126509,87.05302 136.004986,35.126587,86.83731400000001 136.003931,35.126331,86.465992 136.00257,35.124543,86.39655399999999 136.004818,35.123387,85.42406200000001 136.00762,35.121889,85.32192499999999 136.009391,35.120943,85.214702 136.012107,35.1195,85.398113 136.014301,35.118619,85.73863 136.015906,35.118114,87.067149 136.017969,35.120913,87.389027 136.019966,35.124036,87.500675 136.021406,35.126211,87.16310300000001 136.019627,35.12695,87.022426 136.019668,35.126901,86.578192 136.019631,35.126869,86.294712 136.01951,35.126894,86.332081 136.019551,35.126965,86.43369799999999 136.019509,35.126989,86.186379 136.019384,35.127015,86.35032200000001 136.017489,35.127579,86.46450299999999 136.015809,35.128669,86.36937500000001 136.015534,35.130769,86.546114 136.015802,35.132871,86.538467 136.015506,35.135049,86.265005 136.017013,35.134375,85.981382 136.019615,35.132599,85.852401 136.021172,35.131525,86.055879 136.023683,35.129791,86.981396 136.025656,35.129968,87.539317 136.029279,35.131716,88.040519 136.031696,35.131558,88.64406099999999 136.031113,35.129863,88.665099 136.030638,35.128953,88.368363 136.030506,35.128636,88.085312 136.030334,35.128748,87.81455 136.030048,35.128821,86.975145 136.029539,35.128703,84.777755 136.029437,35.128778,84.317498 136.02961,35.128832,84.416543 136.029826,35.128854,84.580654 136.030187,35.128793,85.178269 136.030418,35.128727,87.34396700000001 136.030556,35.128632,87.858755 136.030539,35.128621,88.018699 136.030525,35.128573,88.10419400000001 136.030526,35.128566,88.39178200000001 136.03052,35.128572,88.488574 136.030519,35.128582,88.56359 136.030513,35.12859,88.68752000000001 136.030642,35.127124,88.644364 136.030387,35.127997,88.63874 136.031298,35.13031,88.788312 136.031652,35.131383,88.14590099999999 136.032186,35.13151,87.72801200000001 136.034433,35.131652,87.618459 136.035061,35.129202,87.442047 136.036517,35.126724,86.70068499999999 136.038563,35.127646,86.57679899999999 136.041016,35.128587,86.188081 136.043825,35.130208,85.59945399999999 136.046631,35.131803,84.832314 136.049244,35.13321,85.266066 136.051626,35.133313,86.02301300000001 136.054593,35.13349,87.055245 136.056282,35.133714,88.05181899999999 136.058435,35.1335,88.95663 136.060641,35.133779,88.94352000000001 136.059764,35.132521,88.690865 136.058381,35.132116,88.230554 136.057333,35.132101,87.837232 136.056843,35.132069,87.66604599999999 136.056874,35.132078,87.74305 136.056801,35.132075,87.732845 136.055576,35.132147,87.64917199999999 136.054419,35.133388,88.007891 136.055361,35.133692,88.27851599999998 136.057795,35.133438,88.391688 136.060301,35.133724,88.11304199999999 136.062878,35.13491,88.54852700000001 136.066675,35.135078,88.573522 136.069821,35.135173,88.632504 136.070461,35.135474,88.442921 136.07086,35.135446,88.843368 136.072588,35.133296,88.36130199999999 136.073243,35.132518,87.96435 136.074815,35.130716,87.61582799999999 136.074657,35.130779,87.892054 136.072846,35.132917,87.162205 136.074985,35.134283,87.287989 136.075576,35.133729,87.400227 136.076456,35.132958,87.38063 136.076722,35.132725,87.35289400000001 136.077208,35.132296,88.007886 136.07737,35.132167,88.092067 136.077511,35.132284,87.815797 136.0774,35.132171,87.90702 136.077259,35.132249,87.749078 136.077254,35.13224,87.689055 136.077096,35.132367,88.09483 136.075735,35.133571,88.42277300000001 136.075154,35.134381,88.200245 136.075609,35.135753,87.953647 136.074306,35.137559,87.581631 136.072495,35.140136,86.834085 136.070868,35.142466,86.592521 136.072146,35.143088,86.51700200000001 136.072177,35.143104,86.52265300000001 136.072201,35.143115,86.597481 136.072228,35.143057,86.693899 136.072329,35.142913,86.48030199999999 136.072346,35.142922,86.502691 136.072161,35.143073,86.488545 136.072117,35.143107,86.52722300000001 136.072123,35.143105,86.585142 136.071982,35.142969,86.73635899999999 136.071393,35.141767,86.886645 136.073006,35.13946,87.280023 136.074466,35.137414,87.98858799999999 136.072141,35.136238,88.676287 136.070912,35.135631,88.846403 136.070767,35.135508,88.922192 136.072576,35.133304,88.84847499999999 136.074798,35.130603,88.769524 136.077119,35.127776,88.799094 136.077659,35.12601,89.30295700000001 136.073825,35.124748,89.746994 136.071487,35.123079,89.917575 136.068574,35.120871,89.76009000000001 136.064571,35.120247,89.573223 136.061584,35.11874,89.353674 136.061206,35.118434,89.280241 136.059548,35.117035,89.40244300000001 136.059355,35.116828,89.524621 136.059252,35.116685,89.622603 136.05915,35.1165,89.865577 136.059159,35.11651,89.853223 136.059124,35.116483,89.845956 136.059152,35.116477,90.05716700000001 136.059095,35.116452,89.93543200000001 136.059115,35.116474,89.832319 136.059125,35.116501,89.762002 136.05916,35.116522,89.741868 136.059147,35.116519,89.502523 136.059127,35.116538,89.450942 136.059139,35.116504,89.390575 136.05916,35.116526,89.384439 136.059126,35.116512,89.53555299999999 136.059116,35.116503,89.665278 136.059088,35.116543,89.784205 136.059122,35.116566,90.049571 136.059142,35.116552,89.951211 136.059178,35.116383,89.779005 136.059296,35.116487,89.641192 136.059196,35.116486,89.507814 136.059228,35.116473,89.485449 136.059214,35.116483,89.516148 136.059158,35.11642,89.602536 136.059322,35.116442,89.707173 136.059288,35.116468,89.69449400000001 136.059216,35.116731,89.61909 136.06105,35.118389,89.558144 136.063717,35.120189,89.73602700000001 136.067347,35.12074,89.769284 136.069563,35.121224,89.731621 136.071502,35.123149,89.655154 136.073934,35.124838,89.67682000000001 136.076528,35.125701,89.533317 136.078236,35.126326,89.696856 136.078084,35.126549,89.834901 136.078191,35.126611,90.36539999999999 136.078426,35.1266,90.82615199999999 136.07866,35.126524,91.50386399999999 136.080707,35.127651,92.30360400000001 136.082322,35.128483,92.75638499999999 136.082513,35.128586,93.03977399999999 136.085202,35.129962,93.04843200000001 136.086977,35.130652,92.595443 136.088959,35.130975,91.68249400000001 136.08792,35.132623,91.25689 136.086244,35.134699,90.70321300000001 136.084878,35.136393,90.51033 136.086158,35.137469,90.461787 136.087723,35.138298,90.95942700000001 136.088582,35.138736,91.545726 136.09099,35.139685,91.67250799999999 136.093627,35.140646,91.341408 136.095861,35.141762,91.057824 136.096856,35.142256,90.136796 136.097021,35.142348,89.21957999999999 136.095741,35.14395,89.146235 136.094326,35.145703,88.91908599999999 136.093309,35.148149,89.548768 136.092681,35.151359,91.73221599999999 136.091943,35.154655,94.42331 136.090911,35.157942,98.25504699999999 136.090654,35.160847,102.506017 136.090365,35.162615,103.474402 136.090101,35.163403,104.417627 136.088416,35.165418,102.97386 136.085923,35.166355,97.83332799999999 136.085464,35.166279,92.341714 136.08543,35.166238,90.69345 136.085434,35.166243,88.30765 136.085434,35.166279,87.89792199999999 136.085845,35.166531,89.65907799999999 136.085639,35.166803,91.834504 136.085637,35.166803,92.32227499999999 136.085558,35.166925,91.302733 136.087504,35.167763,90.249342 136.09144,35.167346,89.555925 136.095434,35.16717,89.517264 136.097664,35.169549,88.258173 136.100267,35.171894,87.81884100000001 136.102485,35.174503,87.35347299999999 136.101686,35.177544,86.66542099999999 136.101205,35.179539,85.071119 136.101388,35.179681,84.844554 136.104531,35.180219,84.691598 136.10783,35.180776,84.737104 136.110333,35.181201,84.630931 136.113471,35.181726,84.550524 136.116625,35.182264,84.563501 136.118845,35.182619,84.626814 136.12069,35.182982,84.368624 136.124252,35.183585,84.48829000000001 136.128001,35.18422,84.818654 136.131494,35.184801,85.261707 136.135217,35.185434,85.872922 136.137054,35.185106,86.428275 136.137348,35.184854,86.680204 136.137338,35.184863,86.941875 136.137399,35.184913,87.08493199999999 136.137405,35.184924,86.945261 136.137779,35.184483,86.962546 136.138472,35.183632,87.074411 136.139539,35.180881,87.002869 136.137436,35.177703,87.203446 136.138416,35.176396,87.286237 136.140878,35.179187,87.265852 136.14437,35.180439,87.96046200000001 136.146626,35.181352,88.085307 136.146779,35.181303,87.90823399999999 136.146721,35.181271,88.052466 136.146737,35.181457,88.27851599999998 136.148007,35.183857,87.62057 136.14998,35.186476,87.605501 136.151955,35.189102,87.64917699999999 136.150773,35.19031,87.65361799999999 136.147724,35.192026,87.53036400000001 136.14412,35.193825,87.631477 136.141247,35.196085,88.02307399999999 136.138066,35.198334,87.93319200000001 136.134724,35.200309,87.773825 136.131314,35.202214,88.043336 136.12783,35.204203,88.220899 136.124785,35.206636,88.461332 136.125239,35.208457,89.090414 136.127952,35.210047,89.795513 136.128664,35.209803,90.273026 136.131958,35.209923,91.35383899999999 136.13403,35.210113,90.705333 136.133527,35.210098,90.211434 136.13407,35.210452,90.299042 136.134206,35.210284,90.26955 136.134364,35.210323,89.300314 136.13449,35.210391,89.775904 136.134519,35.210459,90.24126200000001 136.134634,35.210573,89.84409100000001 136.134748,35.210656,89.46575900000001 136.134795,35.21077,89.51087 136.134798,35.210786,89.581385 136.134789,35.210788,89.369168 136.134784,35.210823,88.94528800000001 136.134948,35.210947,88.501209 136.135124,35.210934,87.972279 136.135169,35.211005,87.242148 136.135206,35.211003,86.78667 136.135209,35.211006,87.193409 136.135083,35.210913,87.711742 136.134894,35.21093,88.655981 136.134791,35.210803,89.838229 136.134727,35.210676,90.704149 136.134629,35.210526,91.088641 136.134491,35.210428,91.417671 136.134365,35.21029,91.076397 136.134153,35.210324,90.610921 136.13395,35.210372,90.30346900000001 136.133435,35.210505,90.27220199999999 136.132924,35.210614,90.740004 136.133329,35.21056,92.782374 136.13375,35.210198,95.130478 136.134276,35.210392,96.826691 136.135406,35.211927,96.1799 136.136173,35.213104,95.133228 136.136185,35.215323,92.39928999999999 136.13756,35.216684,89.51276799999999 136.136268,35.218652,87.538794 136.136252,35.218677,87.773044 136.137558,35.219327,87.8473 136.141091,35.220467,88.781448 136.145021,35.221752,89.007155 136.148469,35.22368,89.01346799999999 136.151884,35.22582,88.88748 136.155217,35.227048,88.858791 136.155491,35.227065,88.455203 136.157517,35.225257,88.62621300000001 136.160748,35.223076,88.632003 136.163552,35.221297,88.924953 136.163916,35.22108,88.98062899999999 136.163878,35.221101,88.97161699999999 136.163927,35.221074,88.65785099999999 136.163926,35.221099,88.523962 136.165198,35.221891,88.27752 136.166827,35.224144,88.188255 136.168436,35.226391,88.009562 136.16903,35.228122,88.197822 136.170293,35.229602,88.503727 136.171776,35.231763,88.485242 136.173174,35.234003,88.321888 136.174615,35.236343,88.341016 136.174784,35.236364,88.273138 136.174778,35.236393,88.09735499999999 136.174788,35.236549,88.17071199999999 136.176068,35.237162,88.324904 136.177051,35.237228,88.395706 136.177471,35.237177,88.477653 136.181132,35.238271,88.4936 136.18478,35.240665,88.86145500000001 136.188727,35.242928,89.247255 136.192982,35.24485,89.66004599999999 136.197128,35.246721,89.544246 136.199478,35.246285,90.367484 136.202716,35.245232,91.254077 136.204439,35.244686,91.53290699999999 136.204526,35.24328,92.123356 136.204447,35.243048,92.986341 136.204582,35.243219,92.476688 136.204859,35.243154,92.361462 136.204696,35.243198,92.723744 136.20437,35.243067,92.61694799999999 136.204444,35.24291,91.70732599999999 136.20566,35.242429,91.59248599999999 136.20633,35.239721,91.574692 136.207337,35.238612,91.116996 136.207445,35.238557,89.940521 136.207606,35.238446,89.914055 136.20743,35.238644,89.771806 136.207502,35.23878,88.665622 136.207432,35.238722,88.326301 136.207467,35.238787,89.40810500000001 136.207419,35.238622,89.480396 136.20664,35.23905,89.56364000000001 136.205553,35.241782,89.79678699999999 136.20599,35.244656,89.629232 136.206317,35.245776,88.58046899999999 136.208762,35.248035,88.43470000000001 136.210876,35.247381,88.085629 136.212351,35.248148,87.59510299999999 136.213024,35.248992,87.430385 136.214495,35.250757,87.431682 136.214528,35.25142,87.660419 136.212561,35.252504,87.739875 136.212395,35.252611,87.977453 136.212343,35.252637,87.851017 136.212485,35.252565,87.844267 136.212611,35.252476,87.766599 136.213073,35.252222,87.640602 136.213719,35.251865,87.470021 136.21448,35.251447,87.51827900000001 136.214932,35.251197,87.71609599999999 136.215593,35.252118,87.935132 136.216847,35.253642,87.92008 136.217341,35.254667,88.082897 136.214582,35.256561,88.608576 136.21418,35.258326,88.618218 136.216994,35.260378,88.720873 136.217937,35.262011,90.80587 136.217747,35.262846,92.559827 136.220158,35.264487,94.14077899999999 136.220267,35.264643,96.112241 136.220148,35.264507,97.94755399999998 136.219978,35.264395,98.570437 136.219745,35.264233,99.214794 136.219687,35.264182,99.54858300000001 136.219671,35.264183,98.01661099999998 136.219846,35.264341,96.35035599999999 136.220128,35.264562,94.379507 136.220294,35.264683,92.225849 136.220543,35.264712,90.20083200000001 136.223199,35.266283,90.430151 136.22537,35.268631,90.36856899999999 136.227148,35.269468,89.89389799999999 136.228448,35.267496,89.87893299999999 136.22867,35.266759,90.025339 136.22858,35.266579,89.37848 136.228659,35.266699,89.16883900000001 136.228597,35.266789,89.633593 136.228643,35.266765,89.654242 136.228628,35.266619,89.62039799999999 136.228614,35.26656,89.798283 136.228681,35.266686,89.76145099999999 136.22862,35.266732,89.583853 136.228611,35.266727,89.453812 136.228751,35.266889,89.533395 136.227559,35.268907,90.22810699999999 136.227056,35.269431,91.36826000000001 136.226935,35.269547,91.319025 136.22514,35.26811,91.60239900000001 136.223367,35.266265,92.748932 136.223218,35.266166,92.263842 136.22026,35.264462,91.371886 136.217602,35.262662,91.03442099999998 136.216642,35.26224,90.806944 136.213151,35.260685,89.635373 136.210098,35.258325,89.33238 136.207271,35.255646,89.57989600000001 136.205598,35.252185,90.214912 136.202173,35.249578,91.071129 136.198807,35.247437,91.043948 136.195622,35.246003,91.23214 136.192139,35.244428,90.90058399999999 136.188822,35.242927,90.66207300000001 136.185708,35.241291,89.78278899999999 136.182891,35.23918,89.81077500000001 136.17952,35.237419,90.434893 136.175835,35.237695,90.324335 136.172419,35.23826,89.938925 136.168797,35.236694,89.776814 136.165766,35.234722,89.47541200000001 136.163809,35.232042,88.6691 136.161314,35.229972,88.733592 136.158482,35.227651,89.149933 136.154768,35.226944,89.558396 136.151329,35.225411,89.91271999999999 136.147973,35.223333,89.853261 136.144386,35.221451,89.777997 136.140562,35.220222,89.564329 136.137139,35.219108,89.321123 136.136795,35.219,89.183638 136.134348,35.218246,89.06699500000001 136.130709,35.217354,89.64617 136.126983,35.215919,91.594436 136.123711,35.214414,91.65971 136.122427,35.21145,91.58322699999999 136.12052,35.208501,92.01681000000001 136.117613,35.206565,91.46530300000001 136.117413,35.206436,90.688034 136.11487,35.204696,90.724052 136.111641,35.202466,90.63588799999999 136.107828,35.201012,90.112842 136.103984,35.199979,89.474378 136.100825,35.198062,87.73930300000001 136.097421,35.196304,86.947295 136.097936,35.192754,86.446279 136.09875,35.189524,86.19806699999999 136.099386,35.187036,85.989608 136.100346,35.183211,85.71496399999999 136.100934,35.180898,85.42828799999999 136.101385,35.179085,85.35550600000001 136.102086,35.176251,86.32901099999999 136.102371,35.173325,87.765807 136.099594,35.171474,88.49395199999999 136.097337,35.169085,89.27417699999999 136.095575,35.167193,89.984182 136.095467,35.167132,89.26446 136.094437,35.166911,88.300847 136.093622,35.166985,88.18789599999999 136.092362,35.167181,88.20032500000001 136.092304,35.167184,87.845511 136.090776,35.167422,87.83552899999999 136.088244,35.167751,87.988677 136.087471,35.16773,88.017494 136.087454,35.167725,88.329945 136.087278,35.167697,88.191542 136.085114,35.167093,88.431479 136.082367,35.165937,88.24172900000001 136.079935,35.163995,88.128272 136.07732,35.161661,87.572534 136.073971,35.160184,88.709658 136.070441,35.158805,89.355631 136.067271,35.157598,89.554626 136.066707,35.154554,90.26331399999999 136.065702,35.151391,90.682621 136.064268,35.14836,90.375136 136.061815,35.145721,90.683645 136.060985,35.144868,91.538191 136.060858,35.144732,90.92057 136.061872,35.143376,90.402462 136.06535,35.141021,89.910645 136.068508,35.138307,89.085177 136.070584,35.135782,88.117895 136.070872,35.135423,88.227346 136.07252,35.133414,88.48653899999999 136.073315,35.132456,88.41145299999999 136.075025,35.130399,88.40593200000001 136.07688,35.128142,88.833713 136.077624,35.127257,89.275097 136.078225,35.126461,89.86580600000001 136.076082,35.125494,90.19056500000001 136.072901,35.124394,90.509625 136.070439,35.121962,90.63056400000001 136.067779,35.120765,90.295907 136.064411,35.120238,90.274389 136.063115,35.119934,90.40096699999999 136.061539,35.11871,90.245294 136.059503,35.116984,90.30398099999999 136.058127,35.115342,90.677369 136.05725,35.114288,90.82764299999999 136.057116,35.114116,91.404785 136.055529,35.112299,91.77726699999999 136.053664,35.109938,91.69406600000001 136.05274,35.107492,91.525741 136.052244,35.104853,91.455162 136.050889,35.102619,90.767995 136.049194,35.100508,90.20023500000001 136.047362,35.098262,90.287496 136.045363,35.095812,90.495863 136.043699,35.093804,90.616641 136.042818,35.09272,90.97112 136.04116,35.090753,91.44706100000001 136.040539,35.089974,92.011533 136.039907,35.089211,93.05936800000001 136.038113,35.087045,93.684916 136.037097,35.085811,94.186117 136.036065,35.084566,94.843546 136.035139,35.083426,95.304914 136.035038,35.083283,95.25420699999999 136.033948,35.081979,95.693585 136.032786,35.080563,96.32248399999999 136.031239,35.078673,97.075931 136.029433,35.076472,97.598777 136.027305,35.074299,100.025924 136.026559,35.073493,101.012978 136.028426,35.0724,101.616957 136.030438,35.071284,101.933073 136.032836,35.069955,102.477469 136.034192,35.069254,101.105063 136.034417,35.069131,101.057731 136.034588,35.069031,101.981995 136.034723,35.068013,102.310176 136.034002,35.067278,103.156984 136.032703,35.06586,103.669522 136.031301,35.064381,104.082504 136.028923,35.061798,104.450412 136.028292,35.059967,105.0766 136.028474,35.058253,105.3807 136.028983,35.055581,105.860805 136.028941,35.052671,106.336668 136.028579,35.051167,107.659942 136.028532,35.050996,108.257723 136.027659,35.049007,108.9536 136.027104,35.047947,109.659695 136.026887,35.047588,110.670272 136.025332,35.046157,111.641591 136.022795,35.044696,113.721891 136.021435,35.043925,115.674818 136.019474,35.042797,117.409259 136.019159,35.042615,116.989642 136.018976,35.042503,115.604427 136.016905,35.041344,113.554426 136.016352,35.040999,111.396566 136.014503,35.039957,109.500582 136.012204,35.038647,109.648415 136.010796,35.037808,109.546621 136.010504,35.037634,109.616595 136.008995,35.036815,109.561065 136.00872,35.036657,109.587639 136.008202,35.036364,109.096001 136.006417,35.035334,108.767395 136.00429,35.033881,108.700864 136.002124,35.032085,109.838428 136.000866,35.030416,111.645293 135.999083,35.028322,113.294128 135.99621,35.027115,114.176937 135.995339,35.026702,113.416493 135.99428,35.026275,111.675421 135.992317,35.025432,109.083109 135.992225,35.025383,106.903479 135.991077,35.024845,105.676265 135.98791,35.023443,105.415829 135.984032,35.022743,104.807411 135.98089,35.02224,103.889118 135.977089,35.021608,103.011043 135.973193,35.020956,102.08628 135.970999,35.020164,101.612294 135.970848,35.020084,101.526862 135.969483,35.019009,101.786389 135.968332,35.017447,101.734197 135.966231,35.015189,101.643649 135.96394,35.013504,101.474491 135.961767,35.01194,101.015316 135.961625,35.011835,100.540861 135.961489,35.011725,101.344517 135.959358,35.010055,102.627712 135.957812,35.00783,103.937369 135.957107,35.005743,105.197995 135.956339,35.00315,106.605683 135.956047,35.00217,107.576999 135.955782,35.001289,108.829389 135.955288,34.999626,110.562017 135.954334,34.997326,112.506135 135.953684,34.996533,115.094934 135.952194,34.995268,117.237113 135.951363,34.994693,119.931052 135.949203,34.993269,122.677641 135.946024,34.990772,124.019444 135.943313,34.98819,124.364057 135.940572,34.985503,124.599079 135.938042,34.983003,124.018049 135.935881,34.980789,122.986753 135.933975,34.978747,123.289865 135.933745,34.978466,124.321882 135.934015,34.977508,127.329339 135.934707,34.975739,131.71813 135.935094,34.974783,137.404579 135.93615,34.972284,143.561028 135.936245,34.971995,150.770803 135.936513,34.97114,156.492314 135.938673,34.968751,159.608324 135.940583,34.96704,161.052086 135.941408,34.965673,160.443574 135.941333,34.964218,158.065087 135.94003,34.962703,156.349268 135.939287,34.962599,154.548936 135.939297,34.962571,153.501082 135.939437,34.962702,152.874326 135.939145,34.962822,152.527786 135.939496,34.962695,162.846722 135.939307,34.962559,165.263034 135.93957,34.962957,168.660406 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder id="7112340286539A138A69C">
+		<name>20240909_一級河川北側ルート.gpx</name>
+		<Placemark id="7281EF5C76C39A138A69C">
+			<name>大津市 の出発地</name>
+			<description><![CDATA[2024年9月9日月曜日 7:02 JST<br>標高: 153 m]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>135.940504,34.967593,153.12267</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7390FF4F27739A138A69C">
+			<name>大津市 の目的地</name>
+			<description><![CDATA[2024年9月9日月曜日 17:53 JST<br>標高: 89 m]]></description>
+			<styleUrl>#icon-123</styleUrl>
+			<Point>
+				<coordinates>135.923553,35.134684,88.799887</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="74923D33C6E39A138A69C">
+			<name>大津市</name>
+			<description><![CDATA[インポートしたデータに基づく統計データ<br><br>2024年9月9日月曜日 7:02 JST<br>距離: 203.0 km<br>所要時間: 10 時間 50 分 23 秒<br>平均速度: 毎時 18.7 km<br>最小標高: 80 m<br>最大標高: 190 m<br>累積標高（登り）: 373 m<br>累積標高（下り）: 442 m]]></description>
+			<styleUrl>#line-0288D1-5000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					135.940504,34.967593,153.12267 135.937957,34.969015,162.624017 135.936329,34.971236,147.835974 135.936424,34.971037,149.067232 135.936519,34.971029,153.475105 135.936,34.972398,152.017903 135.935571,34.973376,139.894719 135.935475,34.973614,137.89793 135.934407,34.976383,127.173901 135.933089,34.978561,121.191204 135.93104,34.980596,113.847476 135.928823,34.982874,110.251313 135.926755,34.984372,106.953166 135.926632,34.984584,107.893519 135.925995,34.985304,104.554778 135.925534,34.985872,105.15362 135.925145,34.986405,104.231019 135.925483,34.986722,102.502936 135.926403,34.986987,102.857754 135.926881,34.987295,101.686845 135.92691,34.987312,105.41668 135.926881,34.987295,102.48914 135.927068,34.987196,103.166799 135.927752,34.986124,103.417865 135.927837,34.985957,101.371095 135.926635,34.985424,104.063751 135.926365,34.985318,102.939635 135.925104,34.984718,101.209285 135.924058,34.984274,98.31724699999999 135.923136,34.983884,95.976437 135.921329,34.983157,94.344347 135.920632,34.982883,95.67335799999999 135.920438,34.982799,97.360677 135.91838,34.981172,94.41253399999999 135.916149,34.979236,94.67238399999999 135.91353,34.978373,88.50846300000001 135.91069,34.978225,88.566523 135.908417,34.978107,91.85878099999999 135.9058,34.977941,90.74592699999999 135.905589,34.977935,93.35324799999999 135.904986,34.977926,93.88690199999999 135.901951,34.977865,97.79634399999999 135.901748,34.977897,98.890862 135.901397,34.978,98.28216900000001 135.900467,34.978363,96.526476 135.898963,34.978995,98.739059 135.89661,34.979951,99.32369399999999 135.894012,34.9813,100.087671 135.892173,34.981994,104.041345 135.89188,34.982105,105.645192 135.891133,34.98237,105.198222 135.890956,34.982433,105.807901 135.889785,34.983123,106.97346 135.888839,34.984547,110.349942 135.888336,34.986037,111.218681 135.887836,34.987448,111.154504 135.887775,34.987592,111.551028 135.887482,34.98856,114.967767 135.887196,34.989354,113.96658 135.887049,34.989849,111.859691 135.886734,34.990573,110.109966 135.886586,34.990898,109.023698 135.886505,34.991052,110.471164 135.885839,34.99208,110.391225 135.885506,34.992522,111.10974 135.884759,34.993594,114.237904 135.884513,34.993921,115.520688 135.884206,34.994337,113.918585 135.884126,34.994465,114.130843 135.884019,34.994617,113.97956 135.883918,34.994744,112.14879 135.883599,34.995188,109.913773 135.883502,34.995331,109.621657 135.883414,34.995471,108.424468 135.883343,34.995613,106.851407 135.883219,34.99577,109.179723 135.882973,34.996102,110.663607 135.882664,34.996511,110.270915 135.882385,34.996834,108.977175 135.882267,34.996944,110.059601 135.881843,34.99739,112.205259 135.88029,34.998443,110.044216 135.879343,34.999107,110.536738 135.879202,34.999182,111.591183 135.877051,35.000385,112.130633 135.876395,35.000665,115.229642 135.875778,35.000875,112.795662 135.874599,35.00126,112.888131 135.874317,35.00134,115.24747 135.874115,35.001394,117.57433 135.872465,35.00171,113.289344 135.871496,35.001816,105.882033 135.871418,35.001589,104.025757 135.871653,35.001263,108.756071 135.87154,35.001395,110.773029 135.871688,35.001979,107.813777 135.871959,35.001914,108.044579 135.871629,35.001994,107.506011 135.871063,35.00213,107.435361 135.870829,35.002187,107.755146 135.870587,35.002246,108.565891 135.870338,35.002274,108.824128 135.869227,35.002196,112.584918 135.869884,35.002232,110.839981 135.870735,35.002211,104.345089 135.871175,35.002184,100.942172 135.871291,35.00335,97.14685299999999 135.870148,35.003603,98.82756800000001 135.868146,35.003589,103.96331 135.867786,35.003569,105.895454 135.866404,35.003422,107.401216 135.864787,35.003712,109.079379 135.864378,35.00354,110.585161 135.864166,35.003614,110.572586 135.863521,35.003843,110.512993 135.863783,35.00547,106.564923 135.864027,35.006292,105.13314 135.864078,35.006408,100.382302 135.862272,35.006977,102.39355 135.861979,35.007048,105.215972 135.861895,35.007071,106.73788 135.861735,35.007155,105.532673 135.862253,35.008792,97.644778 135.862696,35.010122,99.128033 135.863447,35.011711,94.60235 135.863737,35.012108,89.464241 135.86268,35.012759,91.752948 135.861238,35.013715,93.01293200000001 135.86047,35.015505,90.130188 135.860889,35.018222,90.01092 135.861347,35.021151,91.64861399999999 135.86179,35.024012,89.72451 135.863239,35.025734,88.81736100000001 135.863368,35.025853,91.100559 135.865145,35.027578,92.011622 135.866308,35.029935,92.512474 135.866509,35.032819,90.81752299999999 135.865123,35.035659,88.21478399999999 135.865233,35.038233,87.896559 135.865633,35.039573,89.480357 135.866935,35.040724,89.506463 135.867915,35.042697,90.205738 135.869179,35.044521,89.94582699999999 135.87144,35.045742,89.69480900000001 135.87313,35.047589,89.34864399999999 135.873152,35.048685,87.68182400000001 135.873126,35.04894,88.21351 135.872927,35.048928,86.761546 135.872905,35.048924,86.049222 135.872914,35.048938,86.548687 135.873126,35.048945,87.257425 135.87319,35.048891,86.88118299999999 135.873497,35.050582,88.69089999999998 135.874331,35.052772,87.68409200000001 135.874463,35.052909,87.12542500000001 135.876045,35.054269,83.819625 135.877466,35.056404,86.005663 135.878174,35.058721,83.962238 135.878324,35.059349,87.099806 135.878426,35.059872,88.363095 135.878576,35.060477,88.26640999999999 135.87876,35.061193,88.77830400000001 135.878985,35.061633,88.18282600000001 135.879364,35.062219,89.3561 135.879675,35.062561,89.149787 135.879815,35.06277,87.983389 135.879919,35.06291,88.607112 135.880738,35.063974,87.41233699999999 135.881156,35.064511,86.687602 135.881462,35.064907,87.920614 135.882471,35.066223,88.170738 135.882579,35.066365,87.86042 135.883374,35.067404,90.46332 135.883677,35.067789,90.64702200000001 135.883769,35.067928,90.37276300000001 135.884813,35.069298,86.941784 135.884996,35.069534,91.249978 135.885615,35.07032,90.94052000000001 135.886358,35.071287,88.499584 135.886458,35.071427,88.699461 135.887062,35.072261,88.114824 135.887347,35.073622,89.969919 135.886754,35.075492,87.377993 135.886791,35.077734,88.97949 135.887512,35.078749,90.720364 135.887747,35.079089,92.849636 135.88886,35.080849,90.743532 135.890643,35.083218,91.010176 135.892422,35.085758,87.57557799999999 135.894069,35.088213,87.325067 135.894525,35.088828,86.183959 135.895096,35.089481,87.414074 135.895529,35.089769,88.027586 135.897027,35.090713,89.33931699999999 135.897376,35.090941,89.03889700000001 135.898312,35.091508,89.33102100000001 135.899022,35.092073,88.64118000000001 135.899151,35.092238,89.85284 135.899885,35.093465,90.548215 135.90084,35.095331,90.67816999999999 135.901161,35.095951,88.93856 135.901545,35.096673,87.550712 135.902749,35.099058,89.241935 135.903511,35.101506,90.587333 135.90445,35.103096,89.15205899999999 135.905393,35.104351,88.075541 135.905881,35.105062,89.95084799999999 135.907134,35.106753,89.26514899999999 135.907702,35.107516,89.576707 135.90779,35.107638,89.79387699999999 135.908445,35.10855,89.780556 135.909044,35.109367,89.48877299999999 135.909402,35.109855,89.778683 135.910452,35.111276,91.408237 135.91133,35.112625,89.61364500000001 135.911576,35.112986,91.564222 135.912271,35.113773,91.677488 135.91286,35.11439,91.722273 135.913657,35.115328,91.38894000000001 135.914435,35.116282,89.460336 135.914548,35.116425,89.82568499999999 135.915394,35.117747,89.69084700000001 135.916731,35.119798,89.066835 135.918114,35.121904,89.468221 135.919314,35.123707,89.156104 135.919421,35.123866,89.745379 135.920521,35.12549,91.52254600000001 135.920667,35.12568,92.12850400000001 135.922439,35.12521,91.69715600000001 135.925129,35.124117,87.96945599999999 135.928628,35.123267,95.86355500000001 135.932275,35.122243,108.591204 135.936163,35.121134,92.359618 135.940065,35.120017,90.10652 135.942918,35.119186,87.77266 135.943264,35.119065,88.72587 135.944028,35.118687,89.294084 135.945629,35.117548,86.52475 135.945782,35.117411,87.14379599999999 135.945973,35.11726,87.491033 135.946021,35.117049,87.343979 135.946016,35.117054,88.085137 135.946239,35.117219,87.801655 135.946392,35.117383,87.267572 135.946667,35.117421,87.389151 135.946713,35.117823,87.68671500000001 135.946266,35.120147,87.342934 135.946952,35.122412,87.49557 135.94902,35.124598,87.410759 135.951896,35.126311,87.31083 135.955878,35.125682,89.369272 135.959131,35.124422,86.65422100000001 135.961439,35.122076,87.882642 135.96534,35.121509,89.873678 135.969663,35.121044,90.130577 135.972927,35.122087,92.674893 135.975274,35.124552,92.43857800000001 135.977778,35.127219,88.91479699999999 135.98036,35.129951,88.05188 135.980468,35.133042,86.246306 135.98052,35.136302,88.021576 135.982633,35.139297,87.525936 135.98511,35.141945,88.31447799999999 135.988969,35.142172,88.206052 135.992968,35.14116,87.70558200000001 135.996394,35.139121,88.77741 136.000021,35.137029,87.264657 136.00371,35.135346,89.350769 136.007882,35.13519,87.277506 136.012121,35.135599,87.32856700000001 136.014387,35.137981,92.662126 136.016207,35.14125,90.11519699999999 136.017961,35.144352,89.219039 136.021592,35.146004,87.350984 136.025947,35.146268,90.780674 136.030191,35.145963,90.327462 136.034151,35.145072,86.526285 136.034696,35.144937,87.265764 136.03809,35.144145,88.038999 136.040537,35.142266,87.105756 136.042421,35.139939,92.335476 136.046155,35.140747,91.463684 136.050255,35.140792,88.066804 136.053991,35.141755,87.56026199999999 136.057949,35.142789,89.489813 136.060982,35.144943,88.24515100000001 136.063828,35.147877,87.796228 136.065469,35.150903,87.196118 136.066037,35.152409,88.17363 136.066084,35.152539,88.109042 136.066094,35.152546,88.39462899999999 136.066082,35.152527,87.965333 136.06621,35.152912,87.952411 136.066671,35.154677,87.898053 136.066659,35.154786,88.155697 136.066659,35.154773,87.450872 136.066653,35.154946,87.804328 136.066933,35.156867,93.321899 136.068866,35.158563,88.606629 136.072591,35.159588,85.72117900000001 136.075917,35.161085,85.358172 136.079246,35.162813,86.749965 136.081549,35.16562,86.34612 136.084462,35.166846,86.30512299999999 136.08466,35.166954,87.95060700000001 136.085657,35.167362,87.479764 136.088422,35.167759,85.20528400000001 136.09177,35.1673,85.427598 136.095671,35.1673,86.18768300000001 136.09804,35.170028,90.189007 136.10008,35.171786,90.849091 136.100252,35.171879,90.797696 136.102517,35.174053,85.027823 136.101732,35.177408,83.341553 136.100856,35.18085,84.49785199999999 136.099986,35.184334,83.958844 136.09911,35.187878,84.588483 136.098253,35.191306,84.544676 136.097365,35.194686,83.458371 136.098138,35.197119,86.030579 136.098335,35.19731,85.676563 136.098258,35.197457,85.676563 136.098226,35.197553,85.511117 136.098233,35.197409,85.962249 136.098234,35.197233,84.456739 136.098136,35.197098,86.252438 136.098243,35.197422,85.64367300000001 136.098163,35.197546,85.898961 136.098211,35.197464,86.67357 136.098221,35.197418,85.22117299999999 136.098215,35.197421,85.709611 136.098383,35.197399,84.650299 136.0985,35.197255,84.91708199999999 136.101114,35.198387,86.51099000000001 136.104468,35.200132,86.893433 136.108458,35.2012,86.389917 136.111674,35.202531,89.007475 136.114225,35.204291,84.56816600000001 136.115276,35.205013,86.21845999999999 136.117027,35.206229,86.910192 136.119694,35.207955,86.68420999999999 136.122097,35.210089,87.543561 136.122748,35.213241,89.560154 136.125579,35.215301,86.18838700000001 136.12898,35.216825,86.395152 136.132688,35.217863,86.7176 136.136402,35.218914,86.50014400000001 136.140579,35.220252,86.256691 136.144657,35.221572,86.25993699999999 136.148059,35.223423,86.95431499999999 136.150683,35.225042,87.138184 136.154042,35.226829,86.878491 136.158262,35.227603,85.631523 136.161412,35.230138,86.875484 136.161954,35.230739,85.51876900000001 136.163475,35.231847,85.88337 136.165619,35.234584,87.013869 136.168716,35.236707,86.698486 136.171833,35.238044,87.39785500000001 136.175758,35.23774,84.10178500000001 136.178287,35.237071,86.37044299999999 136.179892,35.237667,85.87834700000001 136.183212,35.239477,87.50480899999999 136.186079,35.241566,86.84467100000001 136.189362,35.243206,86.762154 136.192931,35.244819,83.772797 136.196523,35.246451,87.33982399999999 136.199901,35.248082,86.626364 136.203255,35.250383,87.608154 136.206174,35.253126,87.128551 136.206892,35.254885,87.36399 136.208111,35.256916,86.079632 136.209567,35.257987,88.54365199999999 136.212177,35.259986,86.255202 136.215646,35.262096,86.556479 136.216993,35.262402,88.159678 136.219003,35.263681,91.069855 136.222037,35.265596,86.65956199999999 136.222839,35.266055,88.08214199999999 136.222977,35.26615,88.341303 136.224932,35.267782,89.117806 136.226366,35.269451,87.92943099999999 136.228525,35.270725,86.469668 136.231582,35.272575,89.038329 136.234905,35.274218,89.084407 136.2362,35.274651,88.573911 136.238078,35.273468,87.109853 136.239692,35.272532,88.284212 136.242271,35.271065,88.20636 136.242927,35.270979,89.626442 136.243145,35.270621,89.27807300000001 136.241428,35.271511,87.859246 136.240012,35.272308,88.96339999999999 136.240016,35.272176,88.975757 136.240024,35.27217,88.58295 136.240052,35.272203,89.18683 136.240087,35.272282,88.577563 136.240088,35.272305,89.84678599999999 136.240226,35.27218,89.13997500000001 136.242513,35.270887,87.699707 136.243144,35.270598,90.753704 136.240693,35.271909,88.07884599999998 136.238441,35.273219,87.503477 136.236416,35.274372,85.219545 136.236174,35.274552,86.20782699999999 136.236168,35.274555,88.42588600000001 136.235914,35.274561,87.155902 136.234775,35.273663,86.70652699999999 136.235589,35.274146,89.26245400000001 136.235411,35.274013,86.182568 136.236862,35.272944,88.369007 136.237736,35.271353,86.959143 136.237989,35.271015,86.824716 136.238114,35.270852,87.99515599999999 136.23811,35.270768,88.073988 136.238107,35.270794,89.715458 136.238077,35.270712,87.761394 136.238105,35.270749,88.00831599999999 136.238068,35.27073,87.10780800000001 136.238097,35.270725,87.02133600000001 136.238059,35.270865,88.246927 136.237986,35.271038,88.355362 136.237834,35.271105,88.573162 136.237015,35.272894,87.694057 136.236078,35.273612,89.595704 136.234888,35.273547,88.68381599999999 136.234522,35.273991,88.773473 136.234632,35.274148,88.92718600000001 136.23716,35.275698,87.642848 136.23997,35.277986,85.216442 136.240857,35.278679,86.643637 136.241959,35.279612,88.215481 136.244481,35.281369,87.816478 136.246644,35.281406,88.27803400000001 136.246788,35.2813,88.954897 136.248105,35.281861,90.72561 136.250202,35.283976,91.49259499999999 136.251828,35.286585,90.849711 136.253179,35.289078,87.765451 136.254948,35.291082,86.83660500000001 136.256483,35.292896,85.70302599999999 136.257236,35.294769,88.478116 136.257524,35.297005,88.254386 136.257585,35.296878,88.012495 136.257447,35.295373,89.06407900000001 136.257713,35.293855,86.269344 136.260417,35.292993,85.256523 136.261015,35.293852,86.09496799999999 136.260133,35.294115,87.160759 136.259637,35.294227,86.34602599999999 136.25963,35.294349,87.14420699999999 136.25962,35.294318,87.301014 136.259641,35.294344,87.10721700000001 136.259677,35.294253,87.490561 136.260025,35.29411,87.13705 136.260959,35.29381,85.754284 136.260807,35.293327,86.17659500000001 136.260037,35.293059,86.332775 136.257436,35.293852,86.134818 136.257239,35.293929,89.11822100000001 136.257066,35.293956,88.44359300000001 136.257054,35.294133,88.753568 136.257548,35.296002,84.92662 136.256967,35.298254,88.585961 136.255688,35.300185,86.429081 136.255364,35.302382,88.855896 136.256805,35.303761,86.08691399999999 136.259087,35.306201,83.36722399999999 136.26064,35.308286,86.476029 136.262311,35.307588,87.721127 136.262441,35.307597,87.760631 136.262495,35.307536,87.131989 136.263247,35.307502,86.76789100000001 136.263676,35.30739,87.56182099999999 136.263708,35.310929,87.69531499999999 136.264507,35.314295,84.33027199999999 136.266496,35.317098,84.97305299999999 136.267713,35.318882,86.124332 136.268104,35.319909,86.22362 136.27044,35.319264,83.834446 136.273096,35.318469,84.712225 136.273554,35.318126,84.59323999999999 136.273568,35.318114,85.087958 136.273803,35.318105,86.18608500000001 136.274212,35.31825,86.86233199999999 136.27103,35.319085,86.31975899999999 136.269211,35.320142,87.080134 136.269724,35.321033,88.112872 136.269929,35.321081,87.267025 136.269954,35.321093,86.10507 136.269815,35.321006,85.707398 136.26985,35.321034,87.207899 136.269935,35.321008,86.96015800000001 136.270124,35.320923,87.06690500000001 136.272834,35.32173,85.97711200000001 136.276535,35.32219,86.650903 136.277546,35.323233,87.7991 136.277059,35.32585,87.494219 136.276649,35.328025,87.293706 136.276228,35.330282,87.390179 136.277,35.330285,87.176276 136.278833,35.329989,88.22492099999999 136.279877,35.329458,89.83752200000001 136.28091,35.328131,90.724361 136.281962,35.326657,89.336039 136.282296,35.326811,89.56711900000001 136.282313,35.326904,89.87095100000001 136.282316,35.326781,89.90146 136.282425,35.326656,89.835465 136.284182,35.326412,91.53954 136.28637,35.32754,96.564476 136.290487,35.329185,108.15466 136.293549,35.332401,102.282021 136.295172,35.335492,94.782532 136.295346,35.33578,95.013335 136.295349,35.335812,95.605025 136.294516,35.335849,94.71964699999999 136.292531,35.335486,92.62971199999998 136.292054,35.336141,92.112757 136.291829,35.336809,92.573109 136.290894,35.339678,90.789383 136.290338,35.341297,90.186773 136.289449,35.343978,89.082492 136.28861,35.344842,87.85970399999999 136.286938,35.344566,87.894758 136.286735,35.344558,87.04624099999999 136.286879,35.344474,85.726467 136.286886,35.34448,87.02138600000001 136.286883,35.34447,86.75200100000001 136.286888,35.344501,87.930609 136.286899,35.344485,87.617272 136.286894,35.344485,87.528308 136.28688,35.344473,87.274455 136.286767,35.344581,87.68091800000001 136.286983,35.344613,87.57310099999999 136.289052,35.345239,89.006378 136.288361,35.347416,88.84563 136.289696,35.348157,90.798366 136.289756,35.34821,87.625806 136.28977,35.348211,88.640782 136.289765,35.348167,88.125767 136.289726,35.348139,88.590563 136.288437,35.347901,89.294076 136.288239,35.34787,90.804491 136.287478,35.350554,88.735069 136.286791,35.353059,89.77760499999999 136.287911,35.354072,87.591221 136.289316,35.354377,88.255433 136.289514,35.353522,87.987281 136.289535,35.353383,86.874301 136.289542,35.353389,88.27776900000001 136.289508,35.353384,87.750912 136.289513,35.35349,88.876282 136.289282,35.354221,87.90127699999999 136.287723,35.353975,88.329527 136.279054,35.368779,85.789028 136.279158,35.368593,90.02174599999999 136.279233,35.368461,89.13845600000001 136.279359,35.368576,90.470141 136.279947,35.369385,92.44546800000001 136.277957,35.3713,91.93111 136.275501,35.373469,90.098078 136.274349,35.374465,90.572107 136.274219,35.374605,91.69386299999999 136.273444,35.377004,90.857742 136.272902,35.378159,90.91479699999999 136.271944,35.377599,90.101651 136.272451,35.377346,90.417373 136.272524,35.377306,91.125623 136.272528,35.377266,90.58481399999999 136.272554,35.37725,90.837774 136.272355,35.377258,90.688216 136.271888,35.37765,90.18159199999999 136.270643,35.377683,89.80627899999999 136.269248,35.377392,91.430492 136.267941,35.37712,90.83896799999999 136.266715,35.376653,90.675797 136.265729,35.376245,89.38889899999999 136.266242,35.375263,89.66724600000001 136.266396,35.375088,89.00084699999999 136.266504,35.37495,87.89189399999999 136.266444,35.374923,88.433341 136.266366,35.374844,88.893377 136.266367,35.374519,90.423141 136.265926,35.375586,89.61870999999999 136.266023,35.376434,90.07092900000001 136.266575,35.376938,89.94226399999999 136.266033,35.37831,89.585883 136.266536,35.37905,90.461029 136.266291,35.379983,90.94217999999999 136.266024,35.380747,90.07304000000001 136.26552,35.382496,90.748344 136.264814,35.384935,90.004209 136.264549,35.385629,90.250012 136.26418,35.38716,91.043617 136.265448,35.388898,91.387838 136.265001,35.389034,92.306268 136.261123,35.388164,93.57009499999999 136.258703,35.387612,87.274691 136.258525,35.387595,88.42485499999999 136.255817,35.386876,88.468479 136.252269,35.386252,88.106216 136.251389,35.386307,89.51138899999999 136.255121,35.386768,88.71701400000001 136.256988,35.387309,88.378305 136.257383,35.387438,88.15745 136.258399,35.387967,89.07413099999999 136.257894,35.389955,88.832251 136.256721,35.392297,88.965513 136.255049,35.394627,89.868454 136.254531,35.39675,89.376188 136.254462,35.396972,90.211477 136.254373,35.397796,90.35561199999999 136.253321,35.399726,90.105645 136.252264,35.401051,89.17889099999999 136.250888,35.401392,88.72841099999999 136.250468,35.402803,89.873413 136.250468,35.402798,89.068861 136.250463,35.402797,89.573106 136.250469,35.402813,90.724463 136.25046,35.402813,89.611603 136.25068,35.40295,90.559825 136.250691,35.402148,90.017893 136.251091,35.400796,88.035073 136.248291,35.400172,88.205304 136.244404,35.399279,87.64836699999999 136.24117,35.398414,87.945702 136.239023,35.397837,88.15475000000001 136.238818,35.39777,88.52663099999999 136.236808,35.396932,87.523629 136.23501,35.395774,87.40225100000001 136.234433,35.396819,89.632137 136.23464,35.398959,90.41162399999999 136.234201,35.401278,89.910636 136.234653,35.403074,92.157 136.233556,35.40415,94.490348 136.23191,35.403631,99.774227 136.229609,35.401949,90.676771 136.228216,35.401403,92.703532 136.227432,35.401102,93.040222 136.227916,35.401363,93.779417 136.229567,35.401985,94.565631 136.230882,35.402891,88.22797300000001 136.232675,35.404178,91.001688 136.232656,35.403479,87.936004 136.231413,35.402567,90.062059 136.229758,35.401545,89.428185 136.22934,35.4014,89.804011 136.228841,35.401464,89.777996 136.228449,35.401319,90.057208 136.229351,35.401458,90.060817 136.230536,35.401975,90.199268 136.232236,35.403114,90.058092 136.232399,35.404012,91.12194100000001 136.232374,35.40381,90.950587 136.229767,35.402025,91.72871600000001 136.228316,35.401099,95.831008 136.229576,35.399224,95.03876200000001 136.231107,35.40064,93.426548 136.232951,35.401884,92.44424899999999 136.233566,35.402294,91.999551 136.233884,35.402522,90.365199 136.233763,35.402411,91.198229 136.231349,35.400845,90.988884 136.229654,35.399115,92.52227499999999 136.22874,35.400395,101.869337 136.228282,35.40148,98.28542799999998 136.228235,35.401339,97.928808 136.22881,35.400474,97.06933600000001 136.228802,35.400482,91.653502 136.229041,35.400107,91.419788 136.229151,35.39977,92.33130300000001 136.229115,35.40001,92.497231 136.228817,35.400459,91.375041 136.228833,35.400448,90.20035300000001 136.228827,35.400454,90.192635 136.228835,35.400448,91.687448 136.228827,35.400455,91.903147 136.228832,35.400451,91.61858599999999 136.228822,35.400454,90.165696 136.228711,35.400601,91.410213 136.228782,35.400437,91.718625 136.22957,35.39914,93.91315 136.228585,35.400626,101.184553 136.227421,35.40293,88.40295999999999 136.227213,35.403675,87.593688 136.226359,35.406837,88.14074100000001 136.225593,35.409779,88.27009099999999 136.227278,35.411114,89.264861 136.23039,35.411865,88.836473 136.233319,35.412558,87.88127299999999 136.235809,35.413327,87.96599399999999 136.236486,35.413528,89.487672 136.236309,35.413556,90.680846 136.23634,35.413562,90.52509000000001 136.236329,35.413581,90.683605 136.236477,35.413498,89.578813 136.236659,35.413589,95.66324400000001 136.237945,35.413985,91.364023 136.236816,35.414474,89.247139 136.233348,35.413789,87.591865 136.233172,35.413756,88.620898 136.229953,35.412981,87.11305900000001 136.226517,35.412242,89.50574 136.222695,35.41142,89.300422 136.220393,35.410794,87.271333 136.22071,35.409868,86.507958 136.220713,35.409883,88.356064 136.220688,35.409916,88.752797 136.220756,35.409744,88.259916 136.221073,35.408861,86.228747 136.220502,35.410359,87.356022 136.21956,35.410721,88.69158899999999 136.215977,35.409944,88.04299899999999 136.212253,35.409104,88.02314800000001 136.211796,35.409436,87.678174 136.211802,35.409503,88.77126699999999 136.211807,35.409497,88.21619200000001 136.211792,35.4095,87.458488 136.211794,35.409486,88.0343 136.211895,35.409357,87.422876 136.212483,35.409206,87.370851 136.215967,35.409957,87.026348 136.220054,35.410874,87.175713 136.224068,35.411737,88.290325 136.224838,35.412981,88.215002 136.224177,35.415999,88.588193 136.222634,35.419241,87.35719899999999 136.221378,35.422833,87.58370499999999 136.220567,35.425087,90.09463 136.219471,35.428238,87.568551 136.218382,35.431553,87.921358 136.218124,35.43236,90.263904 136.217302,35.434949,90.201297 136.21658,35.436808,88.624747 136.216653,35.436767,88.319622 136.216649,35.43683,88.173773 136.21658,35.436772,91.069264 136.215969,35.436423,88.911464 136.213202,35.435829,90.022248 136.210131,35.435146,89.628716 136.207524,35.434579,89.923573 136.206611,35.437253,90.459829 136.205594,35.440275,91.75832699999998 136.204086,35.440148,90.712822 136.202964,35.440557,90.655023 136.202492,35.441652,89.00437100000001 136.20254,35.441694,91.11836599999999 136.202537,35.441649,92.24836000000001 136.203268,35.441475,90.019704 136.20467,35.44145,89.806528 136.204988,35.441867,92.49030999999999 136.20353,35.444541,90.05564800000001 136.202444,35.447946,88.759276 136.201356,35.451406,87.833421 136.199332,35.453807,87.07896700000001 136.198788,35.453916,87.637305 136.198466,35.456194,88.865058 136.199503,35.45963,95.390511 136.203586,35.46154,96.16513999999999 136.206368,35.463694,96.14770300000001 136.206643,35.466977,98.27841399999998 136.205436,35.4668,97.96974599999999 136.205264,35.466998,97.39999199999998 136.205233,35.46705,96.29518 136.205228,35.467053,97.51894199999998 136.205236,35.467062,96.50450499999999 136.205281,35.466995,96.893764 136.205234,35.467349,97.004164 136.207797,35.468422,96.638276 136.208707,35.468173,98.234041 136.209476,35.468533,96.04912399999999 136.212027,35.470535,100.972338 136.213014,35.473441,100.743728 136.210235,35.476458,102.300399 136.20938,35.480054,102.103469 136.209146,35.48337,103.81809 136.207758,35.487029,104.63225 136.206599,35.490782,105.281077 136.205692,35.494335,107.938869 136.205363,35.49617,109.83332 136.206121,35.498997,112.208487 136.206642,35.499698,111.104703 136.206682,35.500286,111.44751 136.203605,35.499588,108.242211 136.199165,35.49945,114.901716 136.188186,35.499726,104.005112 136.186067,35.502432,90.06265999999999 136.182763,35.504587,85.15278000000001 136.174133,35.512492,93.224762 136.170892,35.514639,90.813721 136.167251,35.514204,88.670773 136.164665,35.516001,86.775819 136.16454,35.517615,85.432833 136.164585,35.517481,90.134102 136.164758,35.517382,92.018254 136.164637,35.517316,83.81452400000001 136.16456,35.517311,95.994112 136.164157,35.517712,86.596954 136.164432,35.517472,79.699432 136.164548,35.517486,89.026859 136.16445,35.516908,86.509523 136.165115,35.516175,87.74267399999999 136.164898,35.516242,87.01985500000001 136.164945,35.516376,85.15478400000001 136.164961,35.516372,84.640631 136.164907,35.516239,85.514653 136.165108,35.516206,88.454331 136.165283,35.517456,87.852802 136.165029,35.518223,88.754003 136.164234,35.518111,90.250777 136.164075,35.518152,91.348375 136.163923,35.518793,90.138324 136.163802,35.519248,88.390176 136.16364,35.519875,90.40615200000001 136.163465,35.519934,89.13926600000001 136.162036,35.519588,93.434485 136.161736,35.519467,92.201678 136.161962,35.519327,91.101697 136.162181,35.51922,87.11717299999999 136.162171,35.519224,88.068517 136.161898,35.519296,90.192757 136.161755,35.519476,87.51333200000001 136.160026,35.5189,87.35977 136.158266,35.518154,86.038838 136.159115,35.516474,86.541927 136.160917,35.517144,86.891768 136.161339,35.515609,89.45983699999999 136.161353,35.515586,87.768175 136.161354,35.515585,87.26297599999999 136.161456,35.515605,86.691186 136.161331,35.515619,86.86730300000001 136.161294,35.515795,87.26882500000001 136.160773,35.517052,86.063559 136.158927,35.516744,85.198606 136.157685,35.519317,86.45105100000001 136.156794,35.521124,86.011715 136.156385,35.521176,86.83114999999999 136.153638,35.519003,96.525586 136.151316,35.516413,123.256178 136.149996,35.513469,133.058894 136.143375,35.507055,135.030182 136.141061,35.504767,122.110843 136.137878,35.504127,106.739208 136.134702,35.502704,97.37044899999999 136.131242,35.503407,93.467012 136.128924,35.503672,95.752928 136.126609,35.502303,92.356925 136.125761,35.500511,94.005517 136.124989,35.498214,92.538033 136.124753,35.495746,93.478824 136.124344,35.492762,94.601243 136.124134,35.49012,89.056383 136.12358,35.48785,87.66329500000001 136.122643,35.487871,86.76724400000001 136.120184,35.487974,88.198252 136.119668,35.488715,86.523746 136.119612,35.48879,84.34899299999999 136.11959,35.488771,86.635001 136.119592,35.488768,85.16179099999999 136.119586,35.488936,86.857168 136.119155,35.490947,85.919799 136.121063,35.492882,87.78058299999999 136.121897,35.495164,88.178501 136.122664,35.497582,91.665584 136.124165,35.497605,92.315865 136.124917,35.498172,95.30852299999999 136.125921,35.500887,93.69654300000001 136.127898,35.503324,93.358307 136.129412,35.504064,92.48596000000001 136.126703,35.504343,91.81432700000001 136.123153,35.503497,92.461741 136.119113,35.503593,107.323978 136.115216,35.502938,123.669442 136.110906,35.501674,126.203853 136.108228,35.499022,150.290957 136.105506,35.496932,169.786312 136.091776,35.496694,164.589993 136.08881,35.497128,193.423348 136.088154,35.495603,186.183057 136.086757,35.492324,172.378545 136.08511,35.48885,161.502826 136.083581,35.485612,156.691822 136.082731,35.483597,160.523061 136.082397,35.481337,164.566244 136.0827,35.478019,141.707282 136.081355,35.474445,120.171823 136.079469,35.471531,102.687121 136.078532,35.468831,88.806325 136.076663,35.467172,90.85793 136.075764,35.465987,85.856089 136.075683,35.465859,92.170383 136.075764,35.465897,89.58165 136.075767,35.465885,87.295562 136.075814,35.465969,87.154963 136.075584,35.466531,86.83753400000001 136.073098,35.465667,88.53557499999999 136.069365,35.46402,87.48180499999999 136.066627,35.461809,90.62891999999999 136.064403,35.460179,87.65336600000001 136.061713,35.458145,86.746623 136.059498,35.45636,86.872861 136.05748,35.454451,89.975897 136.057188,35.454711,90.62853200000001 136.057044,35.45456,86.231256 136.057046,35.45459,87.138142 136.057201,35.454679,88.984408 136.057339,35.45458,90.009226 136.057084,35.454047,91.499965 136.054868,35.45195,86.510423 136.053514,35.452337,87.80626999999998 136.052507,35.453429,87.578738 136.052381,35.453443,87.71160399999999 136.052382,35.453451,87.49173500000001 136.052213,35.453364,87.11150600000001 136.051578,35.452545,86.825361 136.051014,35.452287,88.127658 136.049881,35.453142,86.25464700000001 136.050852,35.452454,89.25298600000001 136.050143,35.452118,88.869006 136.050297,35.452167,85.79911800000001 136.05035,35.452162,88.211269 136.050326,35.452167,86.401751 136.050156,35.45223,88.171471 136.050192,35.452086,83.034431 136.049022,35.452017,84.447213 136.048899,35.450189,85.71387300000001 136.048737,35.448103,81.933099 136.048364,35.446962,83.214034 136.048449,35.446962,87.97105500000001 136.048441,35.446958,86.688226 136.048574,35.44682,86.64112799999999 136.0489,35.446068,85.523363 136.046163,35.443208,85.099755 136.043511,35.440371,82.62393899999999 136.041907,35.437639,85.158416 136.040464,35.434934,83.001914 136.039103,35.43366,83.166802 136.036378,35.433865,83.630313 136.032936,35.433982,84.499156 136.030073,35.434075,87.433742 136.029937,35.431944,87.351913 136.029891,35.430855,88.98708600000001 136.029816,35.430982,89.65989500000001 136.029813,35.430994,89.629711 136.029817,35.430962,91.095084 136.029891,35.430776,89.68052900000001 136.029748,35.427877,89.88223499999999 136.029722,35.425597,90.79114300000001 136.032392,35.425701,88.462773 136.036234,35.425912,88.53553700000001 136.040058,35.426178,86.325052 136.042341,35.426359,84.00171899999999 136.042952,35.425989,85.276614 136.044808,35.423558,87.671162 136.045582,35.420206,87.03147800000001 136.046041,35.416474,86.394035 136.044232,35.413387,85.841246 136.042009,35.410407,87.627543 136.04241,35.409393,87.007948 136.044073,35.408571,88.823402 136.045841,35.407672,87.967581 136.046006,35.407576,85.432996 136.04596,35.407539,87.78067900000001 136.045956,35.407541,88.66384600000001 136.045801,35.407692,90.465643 136.045632,35.407777,90.513198 136.043642,35.408768,92.430319 136.042914,35.408453,93.31619000000001 136.04475,35.40751,88.221052 136.044185,35.406728,87.529923 136.041642,35.406195,86.86418500000001 136.041244,35.406265,82.610049 136.041263,35.406221,87.791763 136.041294,35.406212,87.60427199999999 136.041252,35.40621,85.955761 136.041158,35.406455,87.10756600000001 136.039463,35.407397,88.398411 136.037604,35.405135,86.436988 136.036183,35.402625,86.249848 136.035835,35.402004,87.18753 136.035097,35.401051,88.352965 136.034009,35.398527,86.95136100000001 136.033465,35.397078,87.991591 136.0329,35.39478,86.78519799999999 136.033363,35.39204,87.693308 136.031968,35.391722,88.450053 136.031061,35.391776,89.387744 136.031038,35.391695,89.336568 136.031036,35.3917,89.110102 136.031023,35.39171,89.24617499999999 136.031072,35.391758,89.93670899999999 136.030775,35.391806,89.61421300000001 136.030654,35.390922,87.57886000000001 136.030797,35.389814,88.954283 136.031348,35.388083,90.258239 136.031853,35.386547,91.13838199999999 136.033664,35.386521,89.28505800000001 136.033618,35.386552,90.195148 136.033634,35.386556,89.502391 136.033814,35.386501,89.255289 136.034016,35.386363,89.072048 136.033558,35.383768,90.823801 136.034196,35.383394,89.700191 136.03413,35.383403,90.67535100000001 136.033935,35.383395,90.531139 136.033618,35.383438,90.93316900000001 136.033477,35.383555,89.28819799999999 136.033524,35.383484,90.18042800000001 136.033497,35.383436,90.30230299999999 136.033941,35.3834,90.136273 136.034249,35.383391,90.68923100000001 136.03434,35.383342,89.873232 136.034514,35.383346,88.957644 136.034916,35.383282,89.003974 136.035244,35.383281,90.43915800000001 136.035265,35.383285,90.727554 136.035241,35.383291,89.80312000000001 136.03519,35.383111,90.013763 136.035322,35.380165,89.174449 136.036454,35.377194,91.095029 136.037046,35.376323,87.81886799999999 136.036753,35.376182,86.931226 136.035208,35.375425,88.15127200000001 136.034134,35.375343,92.69764499999999 136.034098,35.376075,91.268997 136.034145,35.376154,92.11140899999999 136.034139,35.376138,91.855996 136.034159,35.376148,92.296199 136.034122,35.376087,92.12557700000001 136.034165,35.374976,94.10216 136.034223,35.373285,95.340597 136.034514,35.372486,91.867435 136.034588,35.371048,91.07037099999999 136.034794,35.36955,91.023048 136.035766,35.368919,89.759613 136.03651,35.369381,89.268855 136.036559,35.369334,89.99054099999999 136.036583,35.369347,89.830018 136.036516,35.369349,91.363935 136.036534,35.369422,88.75988700000001 136.036392,35.369877,90.007864 136.035461,35.369412,90.675977 136.036579,35.368756,89.124047 136.038847,35.368145,88.749928 136.041118,35.36772,90.077428 136.042624,35.367391,89.515288 136.043616,35.367696,89.73130399999999 136.044777,35.36709,90.08184900000001 136.046147,35.365521,89.692975 136.046949,35.364128,89.675105 136.047648,35.362053,88.636814 136.047896,35.360019,90.04889900000001 136.047495,35.359758,88.99478499999999 136.047521,35.359922,89.891217 136.047263,35.359803,89.89426400000001 136.04726,35.359805,88.03339699999999 136.04746,35.359868,88.213174 136.047778,35.359913,89.790222 136.047889,35.359484,90.71133 136.047656,35.35755,95.348302 136.047277,35.356162,96.535709 136.046686,35.354759,92.805559 136.045374,35.352737,91.525806 136.04496,35.35221,92.239322 136.045058,35.352063,92.881432 136.047319,35.351469,91.236118 136.048047,35.353212,93.049559 136.049124,35.354303,90.439958 136.049876,35.35497,88.956121 136.050991,35.354576,89.06016399999999 136.051499,35.354386,89.42760699999999 136.05143,35.354363,88.50912700000001 136.051526,35.354368,89.86190999999999 136.051733,35.354485,89.68084099999999 136.053151,35.354811,89.088312 136.05444,35.354694,89.86211900000001 136.053768,35.352776,90.20878 136.053314,35.350759,89.737258 136.053229,35.350248,90.12629800000001 136.053973,35.350137,89.781885 136.056941,35.349837,88.72020000000001 136.058936,35.349158,87.666595 136.058353,35.34744,87.256156 136.057774,35.346533,88.14400000000001 136.057363,35.345647,87.850543 136.057123,35.345744,88.199932 136.057003,35.345755,87.087188 136.057218,35.345711,88.900296 136.05735,35.345567,87.544504 136.057048,35.344778,87.26946599999999 136.0564,35.342924,89.654582 136.055262,35.342435,90.105389 136.0534,35.34286,91.03135899999999 136.050469,35.343626,92.606065 136.047311,35.344586,94.28510799999999 136.043994,35.346215,91.918048 136.043626,35.34641,92.68994600000001 136.043435,35.346459,93.617057 136.04283,35.344634,94.198002 136.041666,35.343219,93.57557199999999 136.041541,35.343083,95.455274 136.039159,35.341371,99.66862000000002 136.03676,35.338528,103.230292 136.034708,35.335263,96.29312299999999 136.032281,35.33207,97.72748 136.029727,35.329354,91.810524 136.029119,35.326168,91.532916 136.028786,35.32438,89.636139 136.028712,35.324224,90.812887 136.026915,35.321878,95.88419399999999 136.025349,35.318284,92.963668 136.023843,35.314337,94.286782 136.022066,35.31026,95.45462000000001 136.020189,35.306087,91.95138300000001 136.018323,35.301955,98.763116 136.016508,35.297904,100.047127 136.015508,35.29363,99.88728999999999 136.016797,35.289346,92.24478499999999 136.01856,35.285468,90.211331 136.018154,35.281942,96.368371 136.017465,35.278796,95.55714999999999 136.014503,35.276587,90.322973 136.011942,35.274591,89.25405499999999 136.008723,35.273564,86.96449699999999 136.005127,35.272295,86.730228 136.001516,35.271156,88.515764 135.997557,35.269747,87.684224 135.993807,35.267585,88.97851799999999 135.990377,35.265473,92.217889 135.987148,35.26342,92.882403 135.983979,35.261481,91.35545500000001 135.982579,35.260467,97.93325499999999 135.981499,35.259705,99.567942 135.9803,35.259066,95.270945 135.979468,35.258761,97.214054 135.978774,35.2586,93.44745 135.977408,35.2579,90.736408 135.975848,35.257077,89.91029 135.974258,35.256003,89.195168 135.973799,35.255676,89.525825 135.972739,35.254656,94.683071 135.971822,35.252212,92.139089 135.970759,35.250461,93.632932 135.968419,35.249668,104.976909 135.96553,35.248113,97.21567699999999 135.962724,35.246868,96.06003800000001 135.959939,35.244461,95.97673 135.957411,35.241936,103.523618 135.955562,35.239186,101.332361 135.95343,35.236941,102.703742 135.950762,35.23527,105.578996 135.948957,35.233126,104.168458 135.9472,35.230969,111.058082 135.94653,35.228234,121.264319 135.943878,35.226284,113.42803 135.941117,35.22442,112.317051 135.938338,35.222382,109.432318 135.935056,35.220307,114.752258 135.93262,35.218198,115.076219 135.930108,35.215901,115.99387 135.929635,35.212572,119.088511 135.927677,35.210123,110.768669 135.925315,35.207726,104.148693 135.923634,35.20681,106.442162 135.923669,35.206918,107.082607 135.923673,35.206931,110.467113 135.923688,35.206937,107.836528 135.923685,35.206918,108.282014 135.923673,35.206939,107.31546 135.923653,35.206928,102.985524 135.923557,35.206748,105.025676 135.922461,35.206078,104.93586 135.921904,35.204287,102.84451 135.921968,35.203944,103.538683 135.922368,35.201332,101.33635 135.922044,35.199934,98.382278 135.921704,35.199331,101.741494 135.919747,35.196987,109.703262 135.917117,35.194249,116.136754 135.915077,35.191398,116.561277 135.913748,35.188347,110.239497 135.913799,35.184776,98.92892799999998 135.914605,35.181864,93.886916 135.914747,35.181184,94.016654 135.915278,35.180065,92.258618 135.91631,35.177917,90.478392 135.917776,35.174838,90.23133199999999 135.919241,35.171803,90.39144 135.921054,35.169412,90.033559 135.922705,35.167325,89.979569 135.922903,35.166837,88.78065700000001 135.923741,35.165318,89.01621900000001 135.923752,35.165135,89.454357 135.924211,35.162585,88.08091 135.924531,35.160037,87.228285 135.924763,35.158208,89.762756 135.925023,35.156164,93.216909 135.925317,35.153838,90.84056200000001 135.925677,35.150961,89.08628400000001 135.925706,35.148229,87.391884 135.9252,35.145743,89.31568300000001 135.924667,35.144254,89.64037 135.924083,35.142497,89.347437 135.923244,35.140037,91.715947 135.922911,35.139017,94.56168700000001 135.922791,35.137529,92.30468399999999 135.923351,35.136037,90.114863 135.923837,35.134935,89.810323 135.923924,35.134774,89.830642 135.923609,35.134691,89.540452 135.923551,35.134691,89.25232800000001 135.923553,35.134684,88.799887 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder id="7598B5ECFC739A138A69C">
+		<name>20240910_一級河川西側ルート.gpx</name>
+		<Placemark id="76239DB995E39A138A69C">
+			<name>一級河川3 の出発地</name>
+			<description><![CDATA[2024年9月10日火曜日 5:48 JST<br>標高: 158 m]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>135.9394,34.962704,157.734746</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="77A99D91F8339A138A69C">
+			<name>一級河川3 の目的地</name>
+			<description><![CDATA[2024年9月10日火曜日 14:27 JST<br>標高: 151 m]]></description>
+			<styleUrl>#icon-123</styleUrl>
+			<Point>
+				<coordinates>135.939547,34.962627,150.760306</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="78338925B6239A138A69C">
+			<name>一級河川3</name>
+			<description><![CDATA[インポートしたデータに基づく統計データ<br><br>2024年9月10日火曜日 5:48 JST<br>距離: 137.8 km<br>所要時間: 8 時間 39 分 10 秒<br>平均速度: 毎時 15.9 km<br>最小標高: 85 m<br>最大標高: 159 m<br>累積標高（登り）: 130 m<br>累積標高（下り）: 137 m]]></description>
+			<styleUrl>#line-0288D1-5000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					135.9394,34.962704,157.734746 135.939592,34.962665,157.761888 135.940801,34.963411,158.074714 135.941468,34.965099,156.751585 135.940841,34.966144,158.362171 135.940513,34.967643,157.828641 135.938154,34.968933,154.119684 135.93645,34.971,149.603742 135.935611,34.973287,143.848905 135.935534,34.97346,134.898843 135.934591,34.975737,128.912136 135.933619,34.977932,123.998535 135.932819,34.978841,118.759269 135.930672,34.981033,114.817696 135.9297,34.982154,111.726959 135.927476,34.983928,108.97639 135.926175,34.984949,106.857676 135.926008,34.985134,105.233593 135.925132,34.98645,104.557865 135.925235,34.986581,104.351375 135.925731,34.985754,103.914248 135.926,34.985365,103.908539 135.926058,34.985286,103.38407 135.924253,34.984346,102.263747 135.921219,34.983113,101.363375 135.918446,34.981263,99.291399 135.915862,34.979098,98.068946 135.912107,34.9783,97.69362099999999 135.907932,34.978085,97.144293 135.905451,34.977976,96.414607 135.904897,34.978429,96.780629 135.904881,34.978414,96.753823 135.904476,34.979004,95.928692 135.904051,34.980163,95.563908 135.903462,34.983229,94.744212 135.901157,34.985364,94.05604700000001 135.899543,34.986462,93.32827 135.899032,34.986803,92.111006 135.898971,34.986797,91.807452 135.899122,34.986643,92.034684 135.898965,34.986836,92.341864 135.89896,34.986774,92.23257599999998 135.898974,34.986856,93.184341 135.898873,34.986968,93.150047 135.897918,34.987623,93.26826199999999 135.896716,34.989243,93.707072 135.896425,34.98963,94.01452999999999 135.896388,34.989618,94.713917 135.896342,34.989609,94.885698 135.89636,34.989635,94.787982 135.896367,34.98961,94.382311 135.896364,34.989624,94.54181699999999 135.896335,34.989597,94.381364 135.896304,34.989599,94.401123 135.89631,34.989598,94.46516399999999 135.896408,34.989599,93.96138999999999 135.896005,34.99048,93.243255 135.894739,34.992567,92.42402 135.894374,34.995668,92.36806300000001 135.894292,34.997619,92.0809 135.894171,34.997763,92.52584299999999 135.892804,34.999179,92.89941899999999 135.892688,34.999301,93.512745 135.890702,35.001391,93.88838800000001 135.88962,35.002179,93.782499 135.889452,35.002351,93.564415 135.889825,35.004439,93.21981700000001 135.890065,35.003771,92.31432100000001 135.890055,35.003581,91.484629 135.890012,35.003436,91.504626 135.890019,35.003577,90.855518 135.890002,35.003642,90.68794800000001 135.890003,35.003665,91.232412 135.890126,35.00416,91.610321 135.889917,35.004402,91.878508 135.889587,35.002666,92.759435 135.889542,35.002452,93.32951799999999 135.8895,35.002315,94.11160099999998 135.886994,35.002141,94.34153499999999 135.886169,35.00211,94.443505 135.883737,35.002824,94.222598 135.880611,35.003856,93.870183 135.877556,35.004469,93.342185 135.876398,35.004798,93.34715799999999 135.876067,35.004912,93.226955 135.873834,35.006281,93.797077 135.872896,35.006268,93.941064 135.873522,35.006005,94.559299 135.87332,35.006093,94.93786 135.873197,35.006438,94.97149400000001 135.873181,35.006474,94.717665 135.873189,35.006435,94.922477 135.873153,35.006282,94.684578 135.872939,35.006324,94.50988700000001 135.872586,35.005971,94.60137899999999 135.871351,35.006176,94.68653500000001 135.870308,35.006689,94.825935 135.870267,35.006676,94.54795799999999 135.870271,35.006731,94.39078000000001 135.869753,35.006993,94.812535 135.870436,35.007899,94.27725100000001 135.870446,35.008072,93.975674 135.869477,35.008614,93.603925 135.868349,35.009201,93.60745199999999 135.865694,35.010763,93.29199 135.86306,35.01251,93.69799399999999 135.860842,35.014159,93.403403 135.859942,35.013829,93.498316 135.859908,35.01368,93.24445299999999 135.860005,35.013681,93.194754 135.860052,35.013639,92.947609 135.860013,35.013651,93.199974 135.859895,35.013748,93.271108 135.859711,35.013717,93.15878600000001 135.859752,35.015017,92.770432 135.859377,35.016308,92.652503 135.85942,35.016698,91.92084 135.859407,35.016689,91.960021 135.859389,35.01671,91.88133999999999 135.859418,35.016706,91.994962 135.859615,35.016653,91.766957 135.860577,35.016582,91.872366 135.860693,35.017173,91.503461 135.860712,35.017422,91.54219999999998 135.860705,35.01741,91.899579 135.860716,35.017468,92.13767999999999 135.861162,35.019992,92.604049 135.86142,35.021628,92.856742 135.861557,35.021708,93.01106 135.862231,35.021639,92.17253100000001 135.862217,35.021632,91.683499 135.862224,35.021586,91.280067 135.862044,35.021632,90.96607899999999 135.86158,35.022674,90.678617 135.861862,35.024284,91.31459599999999 135.864099,35.026466,92.182519 135.866143,35.029386,91.365163 135.866499,35.03081,91.755059 135.866978,35.030949,91.805592 135.867015,35.03081,91.832587 135.866814,35.030761,91.62291500000001 135.866629,35.030782,93.209699 135.86644,35.030844,93.144063 135.866298,35.033213,93.308018 135.865124,35.035833,92.837149 135.865232,35.038519,92.165217 135.86693,35.040751,91.37188999999999 135.867852,35.042828,91.613068 135.86787,35.04283,91.56205199999999 135.867927,35.04278,91.60929899999999 135.86787,35.042598,91.94429 135.86642,35.040192,92.258478 135.865331,35.038585,91.644732 135.865215,35.036083,92.079913 135.866183,35.033563,92.918778 135.866606,35.032842,93.71436 135.866714,35.032626,93.789272 135.866777,35.032476,94.174775 135.866788,35.032385,94.05331200000001 135.866752,35.03233,93.773826 135.866783,35.032595,93.29740700000001 135.866651,35.032599,93.44918 135.865458,35.0344,93.405237 135.865167,35.037148,93.110788 135.865815,35.039794,92.70677000000001 135.867628,35.042045,92.42129199999999 135.868711,35.044138,92.18153700000001 135.870444,35.045134,92.24646300000001 135.871306,35.045666,91.742772 135.872955,35.047321,91.49685599999999 135.87322,35.048845,91.462401 135.873243,35.049664,90.959768 135.873989,35.052278,90.93042699999999 135.876154,35.05438,92.176725 135.876996,35.05544,93.01209900000001 135.876763,35.055546,93.733814 135.876462,35.055638,94.56904 135.87609,35.055746,92.89459100000001 135.876032,35.055782,92.443929 135.875802,35.055787,92.436795 135.876098,35.055756,92.573007 135.876452,35.055654,92.949882 135.876823,35.05553,95.499194 135.876985,35.055286,95.178301 135.876909,35.055396,94.72619899999999 135.877092,35.055445,94.16602899999999 135.877795,35.057372,93.707137 135.878403,35.059783,92.620848 135.879377,35.062203,92.73446300000001 135.88065,35.063868,92.31069100000001 135.881377,35.064834,92.212913 135.879936,35.064271,92.247117 135.879742,35.064115,92.59833 135.879799,35.064151,91.493165 135.879781,35.064154,92.25400399999999 135.879739,35.064299,91.92729199999999 135.879743,35.064079,91.13577600000001 135.879899,35.064296,91.072982 135.881245,35.064867,91.599158 135.881425,35.064931,90.91810099999999 135.883085,35.065535,90.775012 135.884199,35.066456,91.40400099999999 135.885071,35.067085,90.96548799999999 135.885275,35.067032,91.683753 135.88547,35.066939,91.687871 135.885544,35.066935,91.90675400000001 135.885293,35.067015,91.707185 135.885088,35.067114,91.82043 135.88538,35.067297,91.649528 135.885738,35.068014,91.949404 135.884535,35.068633,92.456366 135.884523,35.068658,92.89876099999999 135.884383,35.068771,92.986186 135.885297,35.069929,92.808274 135.886336,35.071288,92.61876599999999 135.88708,35.072314,92.43525199999999 135.887214,35.074142,92.557765 135.886311,35.074564,92.012281 135.886221,35.074601,92.422636 135.88621,35.074558,92.924357 135.886034,35.074558,92.606086 135.88571,35.074834,91.821951 135.886949,35.074862,92.21107000000001 135.886917,35.075061,91.647294 135.886587,35.077261,91.302165 135.887282,35.078444,91.287705 135.88741,35.078628,91.71140800000001 135.888507,35.080299,92.202093 135.889995,35.082527,93.512705 135.89142,35.084306,93.73385399999999 135.891419,35.084304,93.323001 135.892865,35.084122,92.816602 135.894567,35.083871,92.916909 135.895541,35.083686,91.440639 135.895516,35.083634,90.468563 135.895587,35.083648,90.37462600000001 135.895444,35.083721,90.91038399999999 135.8942,35.083896,90.79073 135.892118,35.084186,90.981385 135.891651,35.084673,91.41305699999999 135.892967,35.086603,91.702206 135.893992,35.088097,91.12781200000001 135.894915,35.08936,90.64941 135.89592,35.090035,90.846912 135.896086,35.090105,91.218693 135.897885,35.091265,91.741499 135.898401,35.091575,92.608069 135.899705,35.093121,93.442685 135.899922,35.093584,93.87755900000001 135.900109,35.093929,93.704419 135.90116,35.095922,93.50533799999999 135.902413,35.095974,92.26141 135.903281,35.096069,90.927007 135.904674,35.097063,89.72353200000001 135.904998,35.097095,89.06482099999999 135.905029,35.097076,88.53233299999999 135.905039,35.097117,88.737921 135.904248,35.09689,89.611735 135.903511,35.096145,90.36369000000001 135.902521,35.095816,90.94547799999998 135.901598,35.096386,90.97171899999999 135.901468,35.096517,91.441249 135.902515,35.098595,90.748842 135.903426,35.101213,90.59577400000001 135.904823,35.103603,90.020043 135.905034,35.103894,89.346546 135.905758,35.103341,88.510085 135.90583,35.103212,88.077647 135.905769,35.103163,87.49157599999999 135.90572,35.10312,87.600572 135.905758,35.103256,87.984098 135.905782,35.10336,88.213723 135.90578,35.103339,88.397775 135.905813,35.103337,89.308464 135.905659,35.10341,89.621273 135.905088,35.103835,89.926512 135.90503,35.103922,90.15152999999999 135.90602,35.104487,90.05867000000001 135.907639,35.104109,89.056303 135.908834,35.105369,88.431 135.909542,35.105066,88.019929 135.910247,35.104859,87.805576 135.911366,35.105674,87.673052 135.912172,35.105275,87.82808799999999 135.913222,35.105599,88.07031600000001 135.913373,35.106116,88.238007 135.913355,35.106288,88.639971 135.913144,35.107717,88.77923 135.913333,35.109036,88.650096 135.913494,35.107783,88.358541 135.913661,35.106389,88.01881599999999 135.91396,35.105232,87.521905 135.914437,35.104003,87.510516 135.91434,35.104051,86.676863 135.914193,35.103877,86.716511 135.914274,35.103871,86.907113 135.91452,35.103864,86.81293100000001 135.914387,35.103983,86.96020799999999 135.914132,35.104632,87.947796 135.913745,35.105921,88.57926999999999 135.913445,35.107498,88.881669 135.91349,35.108972,89.457413 135.913031,35.109147,90.11998800000001 135.91164,35.110517,91.41281600000001 135.91093,35.111111,92.162334 135.910563,35.111441,92.798402 135.911508,35.11288,93.103341 135.912677,35.11417,93.273442 135.913048,35.114613,92.274207 135.913613,35.115254,91.437971 135.914657,35.116616,90.885385 135.914762,35.116751,90.48721 135.915944,35.118569,89.80363800000001 135.917401,35.120806,89.778476 135.917664,35.121331,89.67554699999998 135.917555,35.121211,89.745026 135.917739,35.12143,89.742769 135.918479,35.122446,89.898437 135.918742,35.122874,89.909498 135.918886,35.12303,90.14040300000001 135.91919,35.123543,90.421347 135.919363,35.123813,90.75357 135.919603,35.124157,91.136309 135.919656,35.124315,91.77845499999999 135.920702,35.125753,92.33815300000001 135.920733,35.125705,92.467562 135.92089,35.125916,92.64314 135.921345,35.126621,92.622834 135.921654,35.127067,92.450936 135.921856,35.127354,92.16416599999999 135.922083,35.1277,91.47572099999999 135.922396,35.128116,90.85283 135.923618,35.128265,90.184439 135.925432,35.129022,89.64449399999999 135.92757,35.128867,88.72492099999999 135.927902,35.128812,88.70951100000001 135.927915,35.128784,88.591002 135.927869,35.128795,88.666659 135.927951,35.128759,88.689403 135.927674,35.128792,89.162183 135.925757,35.129014,89.55311999999999 135.924,35.128568,90.23923499999999 135.922452,35.128093,90.582015 135.922724,35.128639,90.543789 135.922843,35.128752,90.429312 135.923851,35.130156,90.205348 135.925209,35.13206,89.936091 135.924049,35.134353,90.28081899999999 135.92322,35.136208,91.201953 135.922896,35.136927,91.651724 135.922904,35.139154,91.81298 135.923734,35.141629,91.692643 135.923796,35.141805,91.16076200000001 135.92399,35.142424,90.046043 135.924904,35.14502,89.12283100000001 135.925613,35.147949,87.301861 135.926231,35.14819,86.90874700000001 135.926237,35.148189,84.708369 135.926379,35.14817,84.65082 135.926256,35.148048,84.791927 135.926386,35.148174,86.028583 135.926382,35.148161,85.846244 135.926222,35.148172,87.631215 135.926245,35.148159,87.514492 135.926403,35.148229,87.464225 135.926792,35.148654,87.47583400000001 135.927461,35.149558,87.443645 135.928256,35.150675,87.382786 135.929141,35.151822,87.379373 135.929722,35.153082,87.91161099999999 135.930318,35.153968,88.475767 135.930146,35.15515,89.031622 135.929671,35.15637,89.397828 135.930967,35.156653,89.82245500000001 135.930954,35.156558,89.685642 135.93096,35.156561,89.59741699999999 135.930959,35.156647,89.668302 135.930769,35.156618,90.08483200000001 135.928391,35.156045,90.870569 135.925589,35.155746,90.75684800000001 135.92493,35.156606,90.233592 135.92461,35.159065,89.676952 135.924338,35.161148,89.217044 135.924176,35.16239,88.183465 135.92388,35.164676,88.3419 135.923592,35.166124,88.545967 135.923735,35.166652,88.90279700000001 135.923937,35.166982,89.21057 135.924003,35.167594,89.311387 135.923957,35.167965,89.30828099999998 135.92391,35.168029,87.51838100000001 135.923875,35.168018,87.085938 135.924036,35.168143,86.238724 135.923992,35.167349,86.10153200000001 135.923914,35.16674,86.095105 135.92363,35.166635,88.00139 135.923528,35.166504,88.521303 135.923468,35.165919,89.145715 135.923046,35.166539,89.502571 135.921521,35.168742,88.730109 135.919699,35.171053,88.693246 135.918403,35.173484,88.435104 135.918422,35.173426,88.028825 135.91843,35.173411,87.55325000000001 135.918837,35.173492,88.023321 135.918515,35.173405,88.11569900000001 135.918342,35.173613,88.37416399999999 135.917123,35.176087,88.725905 135.916906,35.176333,86.91979499999999 135.916972,35.176329,87.230386 135.916914,35.176188,87.443281 135.916952,35.17634,87.505189 135.916951,35.176326,88.049864 135.916889,35.17633,91.630627 135.915678,35.176059,92.890218 135.914786,35.176084,93.118503 135.914829,35.17719,93.41967099999999 135.914913,35.179314,93.48709100000001 135.915243,35.179647,93.03943099999999 135.91537,35.179748,91.764535 135.914912,35.181155,91.093784 135.916153,35.181385,90.356542 135.916947,35.182861,89.408435 135.91756,35.183449,88.13664300000001 135.917576,35.183447,87.70221600000001 135.917539,35.18339,87.954988 135.917585,35.183559,88.22329000000001 135.917299,35.184596,88.586787 135.917176,35.186058,88.89116300000001 135.917682,35.187313,89.31064600000001 135.918325,35.188782,89.266904 135.919177,35.190036,89.27222 135.920154,35.190913,89.032706 135.92022,35.191265,89.210437 135.920418,35.192267,89.134973 135.921016,35.193783,88.864816 135.921757,35.194788,89.396024 135.922583,35.195968,90.184342 135.923165,35.197094,90.26749 135.923223,35.197237,90.337176 135.923458,35.198108,90.742358 135.923796,35.199351,90.166974 135.924139,35.200645,90.519136 135.924993,35.202142,90.999093 135.92368,35.203416,91.412025 135.925132,35.204481,91.871833 135.927463,35.205802,94.62709699999999 135.930244,35.207657,95.04910099999999 135.932556,35.208946,94.934802 135.934134,35.209205,95.22461199999999 135.935377,35.210248,95.067503 135.935663,35.210531,93.04760400000001 135.936012,35.211583,91.775761 135.935892,35.212757,91.596555 135.937878,35.214891,90.823916 135.939048,35.216168,90.247995 135.940167,35.216147,89.570761 135.942217,35.218062,90.259619 135.944326,35.219821,90.861816 135.946667,35.22174,91.405627 135.949311,35.223022,91.634199 135.952329,35.22367,92.74966000000001 135.955053,35.224613,92.55405 135.956408,35.226022,92.496971 135.95677,35.227217,91.543336 135.956774,35.227363,91.393612 135.956593,35.229448,90.109469 135.956309,35.231664,89.355816 135.957759,35.233848,88.76595 135.958663,35.235145,89.951639 135.959275,35.236622,90.376689 135.960262,35.237721,90.893253 135.961165,35.239061,91.847206 135.961845,35.240799,92.22563599999999 135.961957,35.24098,92.037395 135.961815,35.240908,92.430111 135.961864,35.240927,92.55793199999999 135.961882,35.240878,92.22235499999999 135.961901,35.240912,91.62441699999999 135.961991,35.241028,91.24166200000001 135.962989,35.242771,90.90822199999999 135.965349,35.244377,91.285993 135.967974,35.245755,91.393134 135.969709,35.24718,91.705262 135.970199,35.246761,89.831481 135.970123,35.24676,89.560734 135.970272,35.246632,88.942832 135.970213,35.246769,89.33637 135.970327,35.246812,89.760846 135.969682,35.247139,92.459279 135.970038,35.248347,93.24494199999999 135.97049,35.250236,93.691672 135.970515,35.250405,93.334249 135.971718,35.252035,93.119429 135.972228,35.25345,92.183291 135.972496,35.254234,91.55486500000001 135.974367,35.256159,90.93946 135.977072,35.25779,90.79313399999999 135.980201,35.259094,90.067393 135.983039,35.260915,90.305288 135.985303,35.262331,90.179917 135.985536,35.262358,90.147716 135.987875,35.263318,89.782532 135.990317,35.264349,90.079289 135.99246,35.26545,89.458562 135.992411,35.265408,88.911857 135.992433,35.265435,88.617079 135.992436,35.265423,88.388096 135.9926,35.26554,87.722032 135.993394,35.266898,87.58362 135.993932,35.26772,87.728405 135.996662,35.269321,87.436832 135.999865,35.27069,87.371747 136.002941,35.271656,87.363495 136.005974,35.272652,87.34194100000001 136.008687,35.27361,89.235482 136.011652,35.274481,90.710626 136.014669,35.276765,93.117761 136.017497,35.279074,95.16015400000001 136.018089,35.28221,95.51555399999999 136.018163,35.284709,94.00817600000001 136.017634,35.286959,93.04121000000001 136.016465,35.289227,90.76871300000001 136.015498,35.291421,89.09808700000001 136.01402,35.292929,89.286013 136.011748,35.293986,89.19825899999998 136.012,35.29542,89.42197299999999 136.012549,35.295289,89.678596 136.012782,35.295264,89.684681 136.012892,35.295273,89.63661399999999 136.012662,35.295294,89.617887 136.012573,35.295313,89.44054199999999 136.012534,35.295343,89.406273 136.012137,35.295382,89.770071 136.01221,35.296044,89.758959 136.012778,35.297678,89.74484200000001 136.013163,35.299547,89.84616 136.013772,35.300923,89.323588 136.014989,35.300678,88.64929100000001 136.016936,35.299876,88.026166 136.017111,35.299827,87.779014 136.018769,35.299099,86.94560300000001 136.020336,35.298123,87.104816 136.020745,35.298451,87.147538 136.019914,35.29926,87.583915 136.01971,35.299147,87.55283900000001 136.019625,35.299228,88.00197300000001 136.019495,35.299325,88.297365 136.018535,35.299977,88.548681 136.01772,35.300386,88.381849 136.018689,35.299142,88.90290400000001 136.020404,35.298085,89.56073000000001 136.021548,35.29968,89.068822 136.023625,35.301277,88.97995400000001 136.025826,35.302688,89.24324900000001 136.028849,35.303858,89.247632 136.03233,35.304959,88.55325999999999 136.035629,35.305634,88.71846499999999 136.037692,35.306426,88.41211199999999 136.037207,35.307038,88.105733 136.037302,35.307038,87.47832 136.037252,35.307076,87.377275 136.037205,35.307032,87.259232 136.037203,35.306983,87.146441 136.037045,35.307041,87.089938 136.036716,35.307461,86.791472 136.03711,35.308796,86.759951 136.034883,35.309239,87.082397 136.034821,35.3107,87.84231800000001 136.035633,35.312761,88.308798 136.033651,35.313856,89.22760599999999 136.03232,35.314367,89.89225 136.030033,35.315424,90.66056399999999 136.027928,35.316301,91.450236 136.028178,35.317161,92.05411100000001 136.02815,35.316997,92.491114 136.028023,35.316811,93.001845 136.028075,35.316808,92.738635 136.028055,35.316815,92.483001 136.028074,35.31681,92.028054 136.028096,35.316981,91.73968000000001 136.028198,35.317238,91.50227599999999 136.028291,35.31736,90.919145 136.028369,35.317525,89.962345 136.028936,35.319252,89.57843699999999 136.028987,35.319437,88.873667 136.029026,35.319319,88.105424 136.028951,35.31934,88.125394 136.029001,35.31937,88.155985 136.029095,35.319425,88.19120700000001 136.029117,35.319412,88.47966 136.029087,35.319577,88.575332 136.030282,35.319816,88.754257 136.032745,35.319023,88.583164 136.034413,35.318446,88.28643 136.036749,35.317708,87.91575899999999 136.038063,35.318226,87.840096 136.038698,35.319642,87.66059 136.039744,35.321921,87.698261 136.040486,35.323286,87.977085 136.041877,35.325727,88.312918 136.043207,35.328201,88.353292 136.044408,35.328554,88.14136999999999 136.044963,35.329178,88.261708 136.045053,35.329337,88.327213 136.045169,35.329316,88.141327 136.045092,35.329278,88.311116 136.044969,35.329158,88.801018 136.045062,35.329274,88.94395 136.046664,35.329071,88.709755 136.049872,35.328229,88.62816100000001 136.052904,35.327064,88.24963 136.056232,35.325776,87.77952000000001 136.059505,35.3245,87.713662 136.062851,35.323207,88.39404 136.065881,35.321794,89.026674 136.066977,35.321681,90.57907299999999 136.067284,35.32225,91.409919 136.067592,35.322844,91.71483799999999 136.067657,35.323031,91.215023 136.067735,35.323156,91.02166699999999 136.068688,35.325174,91.03890800000001 136.069272,35.326978,90.156235 136.069932,35.328929,89.40109099999999 136.070336,35.331404,89.246511 136.069035,35.332814,88.749555 136.065565,35.333652,87.12489100000001 136.062688,35.334496,87.417805 136.059559,35.335273,88.163118 136.056817,35.335895,88.61062699999999 136.054432,35.336561,89.02498300000001 136.051785,35.337129,89.556575 136.052191,35.338929,89.63956399999999 136.052465,35.339779,89.586107 136.052475,35.3398,89.502888 136.052457,35.339806,89.522423 136.052512,35.339777,89.71714 136.05203,35.338355,89.809325 136.051831,35.337146,89.79308399999999 136.054129,35.336644,89.66865199999999 136.056169,35.336164,89.33959400000001 136.058664,35.335495,88.76352199999999 136.061596,35.334799,88.247766 136.064778,35.333943,87.546003 136.067815,35.333155,87.421353 136.070835,35.332386,87.81757899999999 136.07214,35.331969,88.610045 136.073087,35.330103,88.777838 136.073854,35.326874,90.302606 136.072904,35.323646,90.65703999999999 136.071106,35.320757,90.086956 136.069057,35.318122,89.79646099999999 136.065295,35.317226,89.804827 136.06129,35.316501,88.486559 136.056904,35.315798,87.99269200000001 136.052652,35.314749,88.042743 136.048425,35.315347,87.641412 136.045579,35.312917,87.929149 136.043351,35.309881,88.22078 136.041028,35.307498,88.893151 136.037367,35.306197,89.302246 136.033693,35.30509,89.294397 136.029614,35.304173,89.101057 136.026319,35.302893,89.087757 136.026074,35.302688,88.5322 136.02607,35.302685,88.30838599999998 136.026244,35.302495,88.31345399999999 136.026256,35.302505,88.271619 136.026237,35.302512,88.401904 136.026175,35.302663,88.81235599999999 136.025092,35.302149,88.91320399999999 136.022234,35.300125,88.73080899999999 136.020508,35.298162,88.927423 136.018225,35.299289,88.930091 136.017014,35.298876,90.26047800000001 136.015941,35.296261,90.842793 136.015582,35.293402,91.278942 136.016594,35.289864,91.996083 136.018391,35.286492,93.190929 136.018316,35.28287,91.60059099999999 136.017585,35.279042,90.651786 136.014374,35.276492,90.05719999999999 136.011167,35.274201,88.83040200000001 136.007201,35.273061,87.17382499999999 136.003706,35.271834,86.927115 135.999658,35.270569,87.564695 135.995788,35.268759,88.501757 135.992268,35.266649,89.13182 135.988727,35.264479,89.947783 135.985095,35.26216,90.333181 135.98168,35.259807,90.10520200000001 135.977782,35.258128,90.12182900000001 135.974451,35.256181,90.456143 135.972667,35.25455,90.620417 135.972369,35.253729,91.406584 135.972132,35.253085,93.420399 135.971116,35.250732,94.119621 135.968404,35.249638,94.873423 135.965445,35.248105,94.98815500000001 135.962925,35.2471,96.828276 135.960622,35.245007,96.759241 135.95801,35.242755,98.594447 135.956265,35.240275,99.421263 135.954685,35.237832,101.219476 135.951971,35.236054,102.246749 135.94959,35.233834,106.490895 135.947287,35.231459,108.250931 135.946603,35.228465,110.586828 135.944081,35.226371,111.531919 135.941356,35.224698,111.529859 135.939026,35.222767,109.736658 135.936149,35.221001,109.340667 135.933745,35.219174,110.165452 135.931427,35.21712,112.201562 135.929918,35.21471,111.563564 135.929191,35.211806,109.887416 135.927122,35.209462,108.541105 135.924628,35.207271,106.29121 135.923336,35.206544,103.555395 135.923244,35.206501,104.051761 135.92331,35.206427,104.547052 135.923163,35.206421,104.825541 135.923155,35.206417,104.994485 135.923257,35.206556,104.617275 135.923455,35.206816,103.910466 135.923557,35.20675,104.149883 135.923462,35.206563,104.286963 135.92349,35.206408,104.335176 135.92349,35.206407,105.94566 135.923393,35.206338,106.119531 135.923639,35.206469,105.741697 135.923394,35.206306,105.433371 135.923499,35.206361,104.164584 135.923551,35.206344,103.130672 135.923431,35.206343,103.390204 135.923385,35.206379,103.407048 135.923386,35.206332,103.494264 135.9234,35.206377,104.834534 135.923392,35.20638,105.079003 135.92339,35.20638,105.032548 135.923417,35.206458,105.237247 135.923447,35.206463,105.354679 135.923416,35.206501,105.493665 135.923387,35.206413,105.382515 135.923442,35.206341,105.250366 135.923505,35.206365,105.163036 135.923506,35.206414,105.060255 135.923492,35.206344,104.913061 135.923421,35.206478,102.249876 135.923446,35.206327,101.719813 135.923596,35.206435,101.481925 135.923315,35.206603,101.745092 135.923423,35.206474,101.730725 135.923352,35.206597,103.96693 135.923439,35.206416,104.680123 135.923429,35.206475,104.116796 135.923451,35.20668,104.296228 135.923511,35.206839,103.912378 135.92354,35.206884,103.565553 135.923533,35.206899,102.966433 135.923708,35.206873,102.389411 135.922517,35.206075,100.877974 135.921921,35.204291,99.192909 135.921952,35.204112,99.06207000000001 135.922381,35.20168,99.74204899999999 135.921369,35.198796,102.726077 135.920171,35.197377,106.589743 135.918453,35.195629,110.671613 135.916227,35.193287,112.322023 135.914532,35.190343,112.531684 135.913801,35.187733,110.766223 135.913835,35.187224,107.693942 135.913883,35.186452,104.471653 135.913902,35.186017,101.70649 135.91385,35.18503,99.130386 135.913864,35.184365,97.108289 135.914274,35.183721,95.267619 135.914541,35.18238,93.62098899999999 135.915062,35.180595,92.48351099999999 135.915303,35.180103,91.4756 135.915545,35.179556,90.471839 135.916565,35.17739,89.259767 135.917769,35.174966,88.945063 135.919031,35.172373,89.026156 135.920561,35.170044,88.6639 135.922338,35.16785,88.644918 135.923541,35.165701,88.623516 135.923856,35.165028,88.17091000000001 135.924193,35.162841,88.047031 135.924419,35.161016,88.47327899999999 135.924669,35.159084,88.75630799999999 135.92478,35.158149,89.656774 135.924867,35.157566,90.807041 135.924914,35.157343,91.233155 135.925162,35.1553,90.71436300000001 135.925485,35.152904,90.158602 135.925745,35.150349,89.876656 135.925645,35.147704,89.23356800000001 135.925003,35.145119,89.130053 135.924357,35.143162,90.35696900000001 135.923588,35.140976,91.0737 135.922864,35.138749,90.86536599999999 135.923157,35.136524,90.836119 135.923914,35.134837,90.443969 135.923998,35.134652,89.586923 135.924252,35.134123,89.28495700000001 135.925239,35.132292,89.51853899999999 135.924088,35.130389,89.744226 135.922762,35.128538,90.337658 135.921583,35.126824,90.761138 135.921316,35.126443,91.116462 135.921229,35.126312,91.077538 135.922123,35.125349,90.399756 135.922958,35.124943,91.873048 135.926023,35.123902,93.10795199999998 135.929715,35.122948,92.17089900000001 135.933536,35.12187,90.87288599999999 135.937867,35.12064,90.95914799999998 135.942085,35.11938,88.705758 135.943219,35.118966,86.556608 135.94553,35.117561,86.601613 135.946102,35.116989,87.13091799999999 135.945897,35.116496,86.954386 135.943729,35.114843,86.857707 135.942916,35.112559,86.824697 135.942153,35.110058,86.68730499999999 135.941999,35.109535,87.01037700000001 135.941655,35.108443,87.391705 135.940762,35.105566,87.236131 135.939728,35.102344,87.609274 135.93879,35.09941,87.718023 135.937826,35.096265,87.514533 135.937944,35.093392,87.089337 135.940589,35.091601,86.972407 135.941178,35.088911,86.546728 135.943114,35.086682,86.690954 135.946466,35.085918,86.41621600000001 135.94717,35.083272,85.901747 135.947224,35.080647,85.963977 135.948535,35.078037,86.08098099999999 135.947701,35.075221,85.84535200000001 135.945461,35.072479,86.08039100000001 135.942359,35.070479,86.95540800000001 135.938408,35.071159,86.543627 135.935639,35.069747,85.894593 135.933351,35.066817,86.117825 135.931043,35.063881,86.142972 135.930564,35.06109,85.91249500000001 135.9301,35.058623,86.61448 135.927646,35.056915,87.208825 135.924165,35.055655,86.969949 135.922276,35.052761,86.893733 135.919443,35.050618,86.36794 135.918196,35.04769,86.117564 135.917775,35.045314,86.12051200000001 135.920658,35.044157,86.358676 135.923625,35.042592,86.845139 135.92536,35.041691,87.38337900000001 135.925534,35.0416,88.37714200000001 135.923812,35.039379,88.822799 135.921919,35.036863,88.857698 135.920951,35.035009,88.63804 135.920005,35.032796,88.71697899999999 135.922893,35.031922,88.022772 135.925211,35.030681,87.930105 135.925148,35.029675,87.92128 135.925035,35.029098,88.075157 135.925065,35.027233,88.546892 135.927839,35.027688,88.989445 135.929692,35.028314,89.33946899999999 135.931122,35.028106,89.84314999999999 135.930744,35.026934,90.019182 135.930636,35.026472,89.767179 135.930362,35.024951,89.82261200000001 135.930179,35.02385,89.637688 135.929283,35.021568,89.307356 135.927897,35.019062,89.193963 135.926651,35.01639,89.00764100000001 135.925716,35.013523,88.547217 135.925408,35.010779,88.43817 135.925391,35.010424,88.413416 135.926728,35.010299,88.340378 135.929765,35.01018,88.549094 135.931511,35.010095,88.668756 135.931677,35.010068,88.75999 135.931923,35.010036,88.916693 135.932165,35.009993,89.17873899999999 135.932161,35.009994,89.300698 135.933003,35.009737,89.43221999999999 135.933297,35.009612,89.523588 135.933334,35.009594,89.572247 135.933564,35.009486,89.685402 135.932094,35.007454,90.150486 135.929913,35.004629,90.568523 135.927448,35.002316,91.09547000000001 135.925913,34.99995,91.73575200000001 135.926137,34.999549,92.167559 135.92612,34.999507,92.301349 135.926126,34.999523,92.55714500000001 135.92607,34.9995,92.74323 135.92589,34.999498,92.60645100000001 135.925019,34.998333,92.87076399999999 135.926282,34.997531,93.05605799999999 135.928832,34.996429,93.09505299999999 135.931056,34.995605,93.008752 135.933258,34.99528,93.61872200000001 135.935369,34.996064,94.539609 135.938019,34.996268,96.779594 135.939854,34.996004,99.10021399999999 135.941974,34.995528,101.642653 135.941997,34.995507,104.172337 135.943558,34.994759,106.283852 135.944172,34.99313,107.054688 135.944067,34.993027,108.332686 135.944665,34.992228,110.356044 135.945644,34.990917,112.245392 135.94573,34.990766,114.755473 135.945953,34.990072,117.917659 135.946881,34.988345,120.38043 135.947819,34.986275,122.476795 135.947898,34.98608,124.531334 135.948577,34.984652,126.872661 135.950611,34.983099,130.032323 135.953038,34.981163,133.316409 135.954461,34.979176,136.675689 135.954528,34.979046,140.472599 135.953909,34.978575,143.72895 135.953566,34.978468,146.455763 135.951849,34.977931,149.881855 135.948274,34.976736,152.961028 135.946508,34.975673,154.611287 135.946365,34.975579,154.274233 135.94347,34.973667,152.91896 135.939759,34.971898,152.708769 135.936533,34.97115,151.419095 135.937677,34.969252,152.424403 135.9404,34.967822,155.881284 135.940486,34.966317,159.017175 135.938696,34.965926,159.622633 135.93881,34.964815,159.356781 135.939831,34.963602,157.382694 135.938617,34.962836,154.697355 135.939407,34.96267,152.354403 135.939453,34.9626,150.932087 135.9393,34.96264,151.779631 135.939397,34.962697,152.339473 135.939408,34.962801,152.192134 135.939571,34.962624,151.525746 135.939563,34.962609,151.104044 135.939619,34.962598,150.069226 135.939713,34.962432,149.603983 135.939605,34.962597,149.499366 135.93953,34.962615,150.095697 135.93955,34.962625,150.270555 135.939569,34.962626,150.493267 135.939581,34.96262,150.586132 135.93958,34.962622,150.675125 135.939567,34.962622,150.708298 135.939547,34.962627,150.760306 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder id="79D6273ECF539A138A69C">
+		<name>2024採水×（2020年より地点参照）</name>
+		<Placemark id="7AB600613FF39A138A69C">
+			<name>安曇川</name>
+			<styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>136.06723,35.322038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7BE022D355839A138A69C">
+			<name>野離子川</name>
+			<styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.920128,35.190942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7C9083AB6A239A138A69C">
+			<name>木戸川</name>
+			<styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.92351,35.197014,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7DD08A1C63939A138A69C">
+			<name>大谷川</name>
+			<styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.935159,35.206255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7ED4330C5D039A138A69C">
+			<name>比良川</name>
+			<styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>135.957216,35.225313,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
