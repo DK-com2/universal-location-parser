@@ -53,10 +53,10 @@ def parse_gpx_content(gpx_content: str, username: str, filename: str = "") -> Li
             wpt_record = process_waypoint(waypoint, wpt_idx, namespace, username, data_source)
             if wpt_record:
                 records.append(wpt_record)
-        
+
         if DEBUG:
             print(f"   📊 GPXレコード抽出: {len(records)}件")
-        
+
         return records
         
     except ET.ParseError as e:

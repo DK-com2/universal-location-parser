@@ -35,8 +35,13 @@ INPUT_TIMEZONE = "Asia/Tokyo"
 OUTPUT_TIMEZONE = "UTC"
 
 # サポートされるファイル形式（GPX追加）
-SUPPORTED_EXTENSIONS = [".json"]
-GPX_EXTENSIONS = [".gpx", ".GPX"]
+SUPPORTED_EXTENSIONS = [".json", ".kml", ".kmz"]  # 参考用
+GPX_EXTENSIONS = [".gpx", ".GPX"]  # 参考用
+
+# ファイル種別ごとの拡張子リスト
+JSON_EXTS = [".json"]
+GPX_EXTS  = [".gpx", ".GPX"]
+KML_EXTS  = [".kml", ".kmz", ".KML", ".KMZ"]
 
 # デバッグモード
 DEBUG = True
@@ -49,7 +54,7 @@ GPX_CONFIG = {
         "hiking_max": 6,       # 6km/h未満 = ハイキング（標高差考慮）
         "running_max": 15,     # 15km/h未満 = ランニング
         "cycling_max": 40,     # 40km/h未満 = サイクリング
-        "driving_min": 40       # 40km/h以上 = 運転
+        "driving_min": 40       # 40km/h以上 =運転
     },
     
     # 標高差による判定

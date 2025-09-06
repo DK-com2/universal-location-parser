@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample Boundary</name>
+    <description>サンプルの境界データ</description>
+    
+    <!-- ポイントのサンプル -->
+    <Placemark>
+      <name>渋谷駅</name>
+      <description>渋谷の中心部</description>
+      <Point>
+        <coordinates>139.7015842,35.6580339,25.0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>新宿駅</name>
+      <description>新宿の中心部</description>
+      <Point>
+        <coordinates>139.7005560,35.6897068,30.0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>品川駅</name>
+      <description>品川の交通拠点</description>
+      <Point>
+        <coordinates>139.7387085,35.6284713,5.0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <!-- 境界線のサンプル -->
+    <Placemark>
+      <name>山手線（一部）</name>
+      <description>山手線の一部区間</description>
+      <LineString>
+        <coordinates>
+          139.7015842,35.6580339,25.0
+          139.7005560,35.6897068,30.0
+          139.7673068,35.6809591,10.0
+          139.7387085,35.6284713,5.0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

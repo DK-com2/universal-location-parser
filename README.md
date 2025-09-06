@@ -2,7 +2,13 @@
 
 Google TimelineデータとGPXファイルを統合処理する包括的なパーサーです。
 
-## 🌟 新機能（2025年5月更新）
+## 🌟 新機能（2025年7月更新）
+
+### 🗺️ KML/KMZ対応追加 ⭐ (最新)
+- **Google Earth形式**: KML/KMZファイルの読み込み・解析
+- **gx:Track要素**: タイムスタンプ付きトラックデータ
+- **Placemarkサポート**: ポイント・ライン・複合ジオメトリ
+- **KMZ自動展開**: ZIP圧縮されたKMLファイルの自動処理
 
 ### 🏔️ GPX対応追加
 - **YAMAP**: 登山・ハイキングデータ
@@ -15,13 +21,13 @@ Google TimelineデータとGPXファイルを統合処理する包括的なパ�
 - カスタマイズ可能な分類しきい値
 
 ### 📊 統合分析
-- Timeline + GPX データの統一CSV出力
+- Timeline + GPX + KML/KMZ データの統一CSV出力
 - データタイプ別統計
 - 時系列での完全統合
 
 ## 🚨 貢献者を求めています！
 
-このプロジェクトはオープンソースで開発されており、新しいデータ形式のサポート、機能拡張、バグ修正などを手伝ってくださる貢献者を探しています。特に以下の分野での貢献を歓迎します：
+このプロジェクトはオープンソースです。新しいデータ形式の対応、機能追加、バグ修正にご協力いただける方を募集しています。特に以下の分野の貢献を歓迎します。
 
 - 新しいGPSデバイス・アプリの対応
 - データの視覚化機能
@@ -32,26 +38,29 @@ Google TimelineデータとGPXファイルを統合処理する包括的なパ�
 
 ## プロジェクトの目標
 
-このプロジェクトは、あらゆるGISデータ（タイムラインデータ、GPSログなど）を単一の統合テーブルに保管することを目指しています。これは、今後 [Pathfinder](https://pathfinder.dk-core.com/) の開発に役立てるための、汎用的かつ包括的なDBの作成を目的としています。
+このプロジェクトの目標は、あらゆる位置情報データ（タイムラインやGPSログなど）を1つの表にまとめて扱えるようにすることです。将来は [Pathfinder](https://pathfinder.dk-core.com/) の開発に役立つ汎用的なデータベースとして活用します。
 
 ## 📁 プロジェクト構造
 
 ```
 timeline/
 ├── main.py                    # 従来のJSON専用処理
-├── main_unified.py           # 新しい統合処理（JSON + GPX）⭐
-├── config.py                 # 設定ファイル（GPX対応拡張済み）
+├── main_unified.py           # 新しい統合処理（JSON + GPX + KML/KMZ）⭐
+├── config.py                 # 設定ファイル（GPX/KML対応拡張済み）
 ├── test_config.py            # 設定テストスクリプト ⭐
 ├── modules/                  # 機能別モジュール
 │   ├── __init__.py
-│   ├── file_handler.py       # ファイル操作（JSON + GPX対応）
+│   ├── file_handler.py       # ファイル操作（JSON + GPX + KML/KMZ対応）
 │   ├── json_parser.py        # Google Timeline解析
-│   ├── gpx_parser.py         # GPX解析 ⭐ (新規追加)
-│   ├── data_converter.py     # データ変換（GPX拡張対応）
+│   ├── gpx_parser.py         # GPX解析 ⭐
+│   ├── kml_parser.py         # KML/KMZ解析 ⭐
+│   ├── data_converter.py     # データ変換（GPX/KML拡張対応）
 │   └── csv_exporter.py       # CSV出力・統計
 ├── data/                     # 入力フォルダ（Git管理外）
 │   ├── *.json               # Google Timeline JSONファイル
-│   └── *.gpx                # GPXファイル ⭐
+│   ├── *.gpx                # GPXファイル ⭐
+│   ├── *.kml                # KMLファイル ⭐
+│   └── *.kmz                # KMZファイル ⭐
 ├── sample_data/              # サンプルデータ
 ├── timeline_output.csv       # 統合出力ファイル
 └── README_EXTENDED.md        # 詳細ドキュメント ⭐
@@ -78,13 +87,17 @@ cp your_timeline.json data/
 # GPXファイル（YAMAP、Garmin等）
 cp yamap_activity.gpx data/
 cp garmin_activity.gpx data/
+
+# KML/KMZファイル（Google Earth等）
+cp track.kml data/
+cp archive.kmz data/
 ```
 
 ### 実行方法
 
 #### 🆕 推奨: 統合処理
 ```bash
-# JSON + GPX 両方を処理
+# JSON + GPX + KML/KMZ を処理
 python main_unified.py
 ```
 
@@ -112,53 +125,62 @@ python test_config.py
 - **Android形式**: `semanticSegments` 構造のJSONファイル
 - **iPhone形式**: `startTime` 構造のJSONファイル
 
-#### GPX形式 ⭐ (新規対応)
+#### GPX形式 ⭐
 - **YAMAP**: 登山・ハイキングデータ（`yamap_*.gpx`）
 - **Garmin**: 各種スポーツアクティビティ（`activity_*.gpx`）
 - **汎用GPX**: その他のGPSアプリからのエクスポート
 
+#### KML/KMZ形式 ⭐
+- **KML**: Point/LineString、TimeStamp/TimeSpan、`gx:Track` に対応
+- **KMZ**: `doc.kml` がない場合は、最初に見つかった `.kml` を読み込みます
+- 時刻の優先度: `point_time > start_time > end_time`
+
 ### 🔮 今後対応予定
-- KML/KMZ（Google Earth形式）
 - Strava API連携
 - Apple Health GPS データ
 - その他のGPSトラッカーアプリ
 
 ## 🧩 各モジュールの機能
 
-### config.py ⭐ (GPX対応拡張)
+### config.py ⭐ (GPX/KML対応拡張)
 - **基本設定**: ディレクトリパス、ファイル名、ユーザー設定
-- **CSV出力設定**: 統合カラム定義（Timeline + GPX）
+- **CSV出力設定**: 統合カラム定義（Timeline + GPX/KML）
 - **GPX処理設定**: アクティビティ分類しきい値、データソース設定
 - **タイムゾーン設定**: 入力・出力タイムゾーン
 
-### file_handler.py ⭐ (GPX対応拡張)
+### file_handler.py ⭐ (GPX/KML対応拡張)
 - JSONファイル検索・読み込み（既存）
-- **GPXファイル検索・読み込み** (新規)
+- **GPX/KML/KMZファイル検索・読み込み** (新規)
 - **統合ファイル検索** (新規)
 - 複数エンコーディング対応
 - ファイル形式検証
 
-### gpx_parser.py ⭐ (新規追加)
+### gpx_parser.py ⭐
 - **XML解析**: GPXファイルの構造解析
 - **データ抽出**: トラックポイント、ウェイポイント、メタデータ
 - **速度計算**: 連続ポイント間の移動速度算出
 - **アクティビティ判定**: ファイル名・内容・パターンによる自動分類
 - **セマンティック分類**: 用途別カテゴリ割り当て
 
+### kml_parser.py ⭐
+- **KML/KMZ解析**: Placemark/Folder/Document対応、`gx:Track`の時刻整合
+- **タイム抽出**: TimeStamp/TimeSpan/Track時刻、欠損時のフォールバック
+- **幾何抽出**: Point/LineString/Trackの座標展開
+
 ### json_parser.py (既存維持)
 - Android/iPhone形式の自動判別
 - visit/activity/timelinePathの抽出
 - 座標・時刻データの抽出
 
-### data_converter.py ⭐ (GPX拡張対応)
+### data_converter.py ⭐ (GPX/KML拡張対応)
 - タイムスタンプのUTC統一
-- 数値データの正規化（Timeline + GPX）
+- 数値データの正規化（Timeline + GPX/KML）
 - **GPX特有フィールド**の処理
 - DataFrame結合・時間順ソート
 - **統合統計情報**生成
 
-### csv_exporter.py ⭐ (GPX対応拡張)
-- **統合CSVファイル出力**（Timeline + GPX）
+### csv_exporter.py ⭐ (GPX/KML対応拡張)
+- **統合CSVファイル出力**（Timeline + GPX + KML/KMZ）
 - データ検証・品質チェック
 - **詳細な結果サマリー**（データタイプ別・ソース別統計）
 
@@ -177,6 +199,11 @@ visit_probability,visit_placeId,visit_semanticType,activity_distanceMeters,activ
 ### GPX特有フィールド ⭐
 ```csv
 _gpx_data_source,_gpx_track_name,_gpx_elevation,_gpx_speed,_gpx_point_sequence
+```
+
+### KML/KMZ特有フィールド ⭐
+```csv
+elevation,kml_source_type,kml_element_type,kml_placemark_name
 ```
 
 ## 🎯 アクティビティ自動分類
@@ -213,9 +240,15 @@ GPX_CONFIG = {
 }
 ```
 
+## ⏱️ タイムゾーン仕様
+
+- 入力の時刻文字列がタイムゾーンなし（naive）の場合は `INPUT_TIMEZONE` として解釈
+- tz付きはそのまま受け取り、`OUTPUT_TIMEZONE` に変換
+- すべての時刻は最終的に `OUTPUT_TIMEZONE` に変換したうえで tz情報を外した「naive UTC相当」で統一
+- 時系列ソートの優先度は `point_time > start_time > end_time`
+
 ## 🔍 データ分析例
 
-### Python での分析
 ```python
 import pandas as pd
 
@@ -227,6 +260,9 @@ timeline_data = df[df['type'].str.contains('visit|activity')]
 
 # GPXデータのみ
 gpx_data = df[df['type'].str.startswith('gpx')]
+
+# KMLデータのみ
+kml_data = df[df['type'].str.startswith('kml')]
 
 # 登山データの分析
 hiking_data = df[df['activity_type'] == 'hiking']
@@ -278,7 +314,7 @@ def detect_data_source(filename):
 ==================================================
 
 📁 ファイルを検索中...
-📊 発見ファイル: JSON 2個, GPX 3個
+📊 発見ファイル: JSON 2個, GPX 3個, KML 1個, KMZ 1個
 
 🔄 JSON処理: 2個のファイルを処理中...
 ✅ JSON処理完了: 2/2個のファイルを処理
@@ -286,13 +322,17 @@ def detect_data_source(filename):
 🏔️ GPX処理: 3個のファイルを処理中...
 ✅ GPX処理完了: 3/3個のファイルを処理
 
-🔗 5個のファイルからデータを統合中...
+🌍 KML/KMZ処理: 2個のファイルを処理中...
+✅ KML/KMZ処理完了: 2/2個のファイルを処理
+
+🔗 7個のファイルからデータを統合中...
 ⏰ 時間順ソート中...
 💾 CSV出力中...
 
 📈 データタイプ別統計:
    - visit: 234件
    - gpx_trackpoint: 5,456件
+   - kml_point: 120件
    - activity_start: 123件
 
 🏔️ GPXデータソース別統計:
@@ -310,10 +350,12 @@ def detect_data_source(filename):
 sample_data/
 ├── sample_android.json      # Android Timeline
 ├── sample_iphone.json       # iPhone Timeline
+├── sample_boundary.kml      # KML サンプル
 └── (GPXサンプルは data/ に配置済み)
 
 # サンプルを使った実行
 cp sample_data/*.json data/
+cp sample_data/*.kml data/
 python main_unified.py
 ```
 
@@ -323,6 +365,8 @@ python main_unified.py
 data/
 ├── yamap_2025-01-18_07_17.gpx      # YAMAP登山データ
 ├── activity_12303576279.gpx        # Garminアクティビティ
+├── track.kml                       # Google Earth KML
+├── archive.kmz                     # KMZ アーカイブ
 ├── timeline_android.json           # Android Timeline
 └── timeline_iphone.json            # iPhone Timeline
 ```
@@ -361,11 +405,11 @@ CSV_COLUMNS = [
 
 ### 🔄 統合アーキテクチャ
 - **既存機能保護**: JSON処理は従来通り動作
-- **新機能追加**: GPX処理をシームレスに統合
+- **新機能追加**: GPX/KML処理をシームレスに統合
 - **下位互換性**: 既存のワークフローに影響なし
 
 ### 🤖 インテリジェント処理
-- **自動形式判別**: JSON/GPXを自動認識
+- **自動形式判別**: JSON/GPX/KML/KMZを自動認識
 - **アクティビティ分類**: ファイル名・内容・パターンで自動判定
 - **データ品質管理**: 異常値検出・除外
 
@@ -383,6 +427,7 @@ CSV_COLUMNS = [
 
 - **[README_EXTENDED.md](README_EXTENDED.md)**: より詳細な技術仕様・データ分析例
 - **[CONTRIBUTING.md](CONTRIBUTING.md)**: 貢献方法・開発ガイドライン
+- **[CHANGELOG.md](CHANGELOG.md)**: 変更履歴・仕様変更の明文化
 
 ## 🔮 将来の拡張計画
 

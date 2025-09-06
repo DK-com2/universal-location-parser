@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>Sample Track</name>
+    <description>サンプルのGPSトラック</description>
+    
+    <!-- Google拡張のgx:Track要素 -->
+    <Placemark>
+      <name>東京駅周辺の移動</name>
+      <description>東京駅から皇居周辺への移動</description>
+      <gx:Track>
+        <when>2024-07-01T09:00:00Z</when>
+        <when>2024-07-01T09:05:00Z</when>
+        <when>2024-07-01T09:10:00Z</when>
+        <when>2024-07-01T09:15:00Z</when>
+        <when>2024-07-01T09:20:00Z</when>
+        
+        <gx:coord>139.7673068 35.6809591 10.0</gx:coord>
+        <gx:coord>139.7649361 35.6835830 12.0</gx:coord>
+        <gx:coord>139.7601013 35.6844769 15.0</gx:coord>
+        <gx:coord>139.7531128 35.6867599 18.0</gx:coord>
+        <gx:coord>139.7498779 35.6870842 20.0</gx:coord>
+      </gx:Track>
+    </Placemark>
+    
+    <!-- 標準的なPlacemark要素 -->
+    <Placemark>
+      <name>東京駅</name>
+      <description>東京の中央駅</description>
+      <Point>
+        <coordinates>139.7673068,35.6809591,10.0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>皇居東御苑</name>
+      <description>皇居の東側庭園</description>
+      <Point>
+        <coordinates>139.7498779,35.6870842,20.0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <!-- LineString例 -->
+    <Placemark>
+      <name>散歩ルート</name>
+      <description>東京駅から皇居への散歩ルート</description>
+      <LineString>
+        <coordinates>
+          139.7673068,35.6809591,10.0
+          139.7649361,35.6835830,12.0
+          139.7601013,35.6844769,15.0
+          139.7531128,35.6867599,18.0
+          139.7498779,35.6870842,20.0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

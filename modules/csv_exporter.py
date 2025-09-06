@@ -53,30 +53,35 @@ def print_summary(df: pd.DataFrame, output_file: str):
         print("\n📋 処理結果サマリー:")
         print("   ❌ 処理できるデータがありませんでした")
         return
-    
+
     print("\n📋 処理結果サマリー:")
     print(f"   📊 総レコード数: {len(df):,}")
-    
+
     # データタイプ別集計
     if 'type' in df.columns:
         type_counts = df['type'].value_counts()
         print("   📱 データタイプ別:")
         for data_type, count in type_counts.items():
             print(f"      - {data_type}: {count:,}")
-    
+
     # ユーザー別集計
     if 'username' in df.columns:
         user_counts = df['username'].value_counts()
         print("   👤 ユーザー別:")
         for username, count in user_counts.items():
             print(f"      - {username}: {count:,}")
-    
-    # 時間範囲
-    if 'start_time' in df.columns:
-        start_time = df['start_time'].min()
-        end_time = df['start_time'].max()
-        if start_time and end_time:
-            print(f"   ⏰ 時間範囲: {start_time} ～ {end_time}")
+
+    # 時間範囲（get_dataframe_summaryの値を利用）
+    from modules.data_converter import get_dataframe_summary
+    summary = get_dataframe_summary(df)
+    time_range = summary.get('time_range', {})
+    time_start = time_range.get('start')
+    time_end = time_range.get('end')
+    print("   ⏰ 時間範囲:", end=" ")
+    if time_start and time_end:
+        print(f"{time_start} ～ {time_end}")
+    else:
+        print("(データなし)")
     
     # 位置情報
     location_data = df.dropna(subset=['latitude', 'longitude']) if all(col in df.columns for col in ['latitude', 'longitude']) else pd.DataFrame()

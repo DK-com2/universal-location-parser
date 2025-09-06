@@ -1,0 +1,39 @@
+[
+  {
+    "startTime": "2025-01-01T00:00:00.000+09:00",
+    "endTime": "2025-01-01T00:00:00.000+09:00",
+    "visit": {
+      "probability": "1.0",
+      "topCandidate": {
+        "placeID": "boundary_start",
+        "semanticType": "START",
+        "placeLocation": "geo:0.000000,0.000000"
+      }
+    }
+  },
+  {
+    "startTime": "2025-12-31T23:59:59.999+09:00",
+    "endTime": "2025-12-31T23:59:59.999+09:00",
+    "visit": {
+      "probability": "0.0",
+      "topCandidate": {
+        "placeID": "boundary_end",
+        "semanticType": "END",
+        "placeLocation": "geo:90.000000,180.000000"
+      }
+    }
+  },
+  {
+    "startTime": "2025-06-30T12:00:00.000+09:00",
+    "endTime": "2025-06-30T12:00:00.000+09:00",
+    "activity": {
+      "distanceMeters": "0",
+      "topCandidate": {
+        "type": "STILL",
+        "probability": "0.5"
+      },
+      "start": "geo:-90.000000,-180.000000",
+      "end": "geo:-90.000000,-180.000000"
+    }
+  }
+]
